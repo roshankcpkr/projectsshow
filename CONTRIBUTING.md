@@ -1,0 +1,4 @@
+- Add a html paragraph tag with your name. 
+- Add your name at last not above others.
+- You can style the html tag with css.
+- You can showcase your coding skills by uploading code snippets to the /projects directory too.
