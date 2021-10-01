@@ -1,0 +1,1 @@
+Simple web chat application built using MEVN stack, Socket.io and auth with JWT
