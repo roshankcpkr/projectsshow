@@ -3,7 +3,8 @@
 
 <p align="justify">This repository has many projects and issues. You shall first fork the repository and fix the issue and commit changes. After that create pull request. Shall we create a simple website with PR? Contribute your codes in projects directory</p>
 <p align ="justify">Show your HTML, CSS and JS skills now. Upload your projects in the projects directory.</p>
-<p align ="justify">We shall create a website in this repository. So you can add pages files, css or js functionalities. Think and create PR.</p>
+<p align ="justify">We shall create a website in this repository. So you can add pages files, css or js functionalities. </p>
+  <p align ="justify">Add your other projects too. You can add projects made in any language. Think and create PR.</p>
 
 ## You need to do some serious contribution. 
 
