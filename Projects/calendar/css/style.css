@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #051320;
+}
+
+.calendar {
+  position: relative;
+  width: 260px;
+}
+
+.calendar::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  box-shadow: 206px 206px #ffc300, -35px 60px #ff5733;
+  border-radius: 50%;
+}
+
+.calendar .calendar-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 6px solid #4285f4;
+  border-radius: 8px;
+  box-shadow: 0 5px 25px rgb(1 1 1 / 15%);
+}
+
+.calendar .calendar-body .month-name {
+  color: #fff;
+  background: #4285f4;
+  width: 100%;
+  font-size: 1.6em;
+  text-align: center;
+  font-weight: 400;
+  padding: 5px 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.calendar .calendar-body .day-name {
+  color: white;
+  font-size: 1.2em;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.calendar .calendar-body .date-number {
+  color: white;
+  font-size: 6em;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+.calendar .calendar-body .year {
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
