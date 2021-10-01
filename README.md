@@ -15,7 +15,9 @@
 | Contributors                                           | Interests              |
 | ------------------------------------------------------ | ---------------------- |
 | _Roshan K.C_                                           | _Programing, blogging, security_|
-| _Agnibha SarkarC_                                           | _Web-development, Flutter, Music_|
+
+| _Agnibha Sarkar_                                           | _Web-development, Flutter, Music_|
+|  
 | _smil-thakur_                                           | _flutter, c++, football_|
 
 
