@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Apercu Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Apercu Regular'), url('../fonts/Apercu_Regular.otf') format('woff');
+}
+@font-face {
+    font-family: 'Apercu Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Apercu Italic'), url('../fonts/\ Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Apercu Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Apercu Light'), url('../fonts/Apercu_Light.otf') format('otf');
+}
+@font-face {
+    font-family: 'Apercu Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Apercu Light Italic'), url('../fonts/Apercu\ Light Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Apercu Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Apercu Medium'), url('../fonts/Apercu\ Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'Apercu Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Apercu Medium Italic'), url('../fonts/Apercu\ Medium Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Apercu Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Apercu Bold'), url('../fonts/Apercu\ Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Apercu Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Apercu Bold Italic'), url('../fonts/Apercu\ Bold Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Apercu Mono Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Apercu Mono Regular'), url('../fonts/Apercu\ Mono.woff') format('woff');
+}
