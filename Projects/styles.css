@@ -1,0 +1,22 @@
+
+        h1{
+            color: burlywood;
+            font-size: normal;
+        }
+        .game{
+    margin-top:50px;
+    border-style: solid;
+    border-color:white;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+        .test{
+  border: 1px solid green;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-radius:20%;
+  color:white;
+  background-color: grey;
+}
+ 
