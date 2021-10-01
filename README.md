@@ -1,15 +1,15 @@
 # Hacktoberfest-web
-## FORK, FIX, PR — that's all it takes!
+## FORK THE REPO, FIX THE ISSUE, CREATE PR — IT'S SIMPLE AS THAT!
 
-<p align="justify">This repository is full of issues, which you need to resolve, first by forking this repository, making changes and then creating a Pull Request in this repository. Shall we create a simple website with PR? Contribute your codes in projects directory</p>
+<p align="justify">This repository has many projects and issues. You shall first fork the repository and fix the issue and commit changes. After that create pull request. Shall we create a simple website with PR? Contribute your codes in projects directory</p>
 <p align ="justify">Show your HTML, CSS and JS skills now. Upload your projects in the projects directory.</p>
 <p align ="justify">We shall create a website in this repository. So you can add pages files, css or js functionalities. Think and create PR.</p>
 
-### Don't create a Pull Request changing the text above! Only the below ones are part of the challenge.
+## You need to do some serious contribution. 
 
-## Contributors Table
+## Contributors for our project
 
-## Add your information creating a new row above the last row in the table below!
+## Add your information below the names
 
 | Contributors                                           | Interests              |
 | ------------------------------------------------------ | ---------------------- |
@@ -17,9 +17,9 @@
 | _Agnibha SarkarC_                                           | _Web-development, Flutter, Music_|
 
 
-### For the README.md file, only the PRs involving changes to the Contributors table would be accepted.
+### If you are changing READ.me file then only one who contributed to projects can change it.
 
-### You can go through every content of this repository to figure out issues for which you can create Pull Requests.
+### Go through Every content and create pull request for issues.
 
-### You can add coded projects in the projects directory
-### Follow the instructions of CONTRIBUTING.md properly for adding projects and creating Pull Requests.
+### You can add your projects in the Projects directory. You can also edit existing files. 
+### Follow the instructions of CONTRIBUTING.md properly.
