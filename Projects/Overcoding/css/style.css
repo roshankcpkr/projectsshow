@@ -1,0 +1,428 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Apercu Regular';
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    box-shadow: 0 0 0 2000px solid rgba(0, 0, 0, 0.5);
+}
+header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header .img {
+    position: relative;
+    height: 300px;
+}
+
+header .img > div {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    transform: translateY(-50%);
+    color: rgb(255, 255, 255);
+}
+
+header .img > div h1 {
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 20px;
+    color: rgb(12, 12, 12);
+    transition: .2s ease-in;
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+nav a.active {
+    border-bottom: 3px solid rgb(4, 46, 102);
+}
+
+nav a:hover {
+    border-bottom: 3px solid rgb(4, 46, 102);
+}
+
+.input-group {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.input-group input {
+    width: 100%;
+    padding-right: 60px;
+}
+
+.input-group button {
+    position: absolute;
+    right: 20px;
+    background: transparent;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: rgb(83, 83, 83);
+    cursor: pointer;
+}
+
+.input-group button:hover {
+    color: rgb(17, 17, 17);
+}
+
+.form-control {
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.mt-5 {
+    margin-top: 1em;
+}
+
+main {
+    position: relative;
+    padding: 20px 100px;
+}
+
+.content {
+    width: 75%;
+    padding-right: 50px;
+}
+
+.title {
+    margin: 50px 0;
+}
+
+article {
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+article > img {
+    max-width: 250px;
+    margin-right: 30px;
+    object-fit: cover;
+}
+
+.post-desc > a {
+    font-size: 1.2em;
+    color: rgb(5, 5, 5);
+}
+
+.post-desc > a:hover {
+    color: rgb(119, 119, 119);
+}
+
+.post-desc p {
+    font-size: .9em;
+    margin-top: 10px;
+    line-height: 25px;
+    color: rgb(56, 56, 56);
+    text-align: justify;
+}
+
+aside {
+    margin: 0px;
+    margin-top: 73px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 8px;
+    width: 20%;
+    box-shadow: 2px 1px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+aside.top {
+    top: 0;
+    right: 100px;
+    position: absolute;
+}
+
+aside p {
+    font-size: .7em;
+    font-style: italic;
+    color: rgb(112, 112, 112);
+    margin-top: 10px;
+    text-align: center;
+}
+
+.aside-title {
+    margin-bottom: 50px;
+    font-size: 1.1em;
+}
+
+.img-round {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.post-footer {
+    display: flex;
+    align-items: center;
+}
+
+.post-footer > * {
+    margin-right: 10px;
+}
+
+.post-footer a {
+    font-size: .8em;
+    color: rgb(4, 46, 102);
+}
+
+.post-footer a:hover {
+    color: rgb(57, 122, 207);
+}
+
+.d-flex {
+    display: flex;
+}
+
+.co-found {
+    font-style: normal;
+    font-family: 'Apercu Regular';
+}
+
+.mt-10 {
+    margin-top: 3em;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 99;
+}
+
+.stickyAside {
+    position: fixed !important;
+    right: 100px !important;
+    top: 100px !important;
+    z-index: 99;
+    width: 20%;
+}
+
+.stickyAsideBottom {
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.flex-column > * {
+    flex-direction: column;
+}
+
+.text-white {
+    color: rgb(241, 241, 241);
+}
+
+.text-gray {
+    color: rgb(211, 211, 211);
+}
+
+.text-blue {
+    color: rgb(43, 99, 255);
+}
+
+footer {
+    background-color: rgb(37, 37, 37);
+}
+
+footer .footer-content {
+    padding: 50px 10%;
+    display: flex;
+}
+
+footer h5 {
+    font-size: 1.2em;
+}
+
+footer .footer-content >  div {
+    flex: 1;
+    margin: 0 20px;
+}
+
+footer .footer-content > div ul {
+    list-style: none;    
+    color: rgb(211, 211, 211);
+}
+
+footer .footer-content > div ul li {
+    display: block;
+    margin: 10px 0px;
+}
+
+footer .footer-content > div ul li a {
+    color: rgb(211, 211, 211);
+}
+
+footer .footer-content > div ul li a:hover {
+    color: rgb(252, 252, 252);
+}
+
+.footer-footer {
+    border-top: 1px solid rgba(255,255,255,0.2);
+    text-align: center;
+    padding: 30px;
+    font-size: .8em;
+    color: rgb(211, 211, 211);
+}
+
+.text-red {
+    color: rgb(255, 67, 67);
+}
+
+.pagination {
+    margin-bottom: 20px;
+}
+
+.pagination ul {
+    list-style: none;
+    text-align:center;
+}
+
+.pagination ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.pagination ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    background-color:rgb(4, 46, 102);
+    border-radius: 3px;
+}
+
+.pagination ul li a:hover {
+    background-color: rgb(6, 71, 156);
+}
+
+.btnMenu, .mobile-menu {
+    display:none;
+}
+
+/* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 992px */
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 14px;
+    }
+    main {
+        padding: 50px !important;
+    }
+    aside.stickyAside, aside.stickyAsideBottom, aside.stickyAsideTop, .top {
+        right: 50px !important;
+    }
+    article > img {
+        max-width: 150px;
+    }
+}
+
+/* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 600px */
+@media screen and (max-width: 600px) {
+    main .content {
+        width: 100% !important;
+        padding: 0;
+    }
+    aside.stickyAside, aside.stickyAsideBottom, aside.stickyAsideTop, .top {
+        position: relative !important;
+        width: 100% !important;
+        right: 0px !important;
+        left: 0px !important;
+        margin: 0px !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    nav {
+        justify-content: flex-end !important;
+    }
+    nav ul {
+        display: none;
+    }
+    .btnMenu {
+        display: block;
+        padding: 15px;
+        justify-content: end;
+        background: transparent;
+        border: 0;
+        outline: none;
+    }
+    .btnMenu:focus {
+        background: rgb(233, 233, 233);
+    }
+    article, footer > * {
+        flex-direction: column;
+    }
+    footer > * > div {
+        margin-bottom: 20px !important;
+    }
+    article > img {
+        max-width: 100% !important;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    main {
+        padding: 10% !important;
+    }
+    .mobile-menu {
+        display: none;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 100;
+        background: rgba(0, 0, 0, .3);
+        padding: 20% 0;
+    }
+    .mobile-menu button {
+        background: transparent;
+        border: none;
+        color: white;
+        font-size: 2.5em;
+        padding: 0 15px;
+        float: right;
+        outline: none;
+    }
+    .mobile-menu a {
+        color: white;
+        text-align: center;
+        border: 0 !important;
+        clear: both;
+    }
+    .input-group {
+        width: 80%;
+    }
+    .input-group button {
+        right: 10px;
+    }
+}
