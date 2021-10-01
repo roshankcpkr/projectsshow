@@ -15,6 +15,7 @@
 | ------------------------------------------------------ | ---------------------- |
 | _Roshan K.C_                                           | _Programing, blogging, security_|
 | _Agnibha SarkarC_                                           | _Web-development, Flutter, Music_|
+| _smil-thakur_                                           | _flutter, c++, football_|
 
 
 ### If you are changing READ.me file then only one who contributed to projects can change it.
