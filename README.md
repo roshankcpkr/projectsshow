@@ -14,6 +14,7 @@
 | Contributors                                           | Interests              |
 | ------------------------------------------------------ | ---------------------- |
 | _Roshan K.C_                                           | _Programing, blogging, security_|
+| _Agnibha SarkarC_                                           | _Web-development, Flutter, Music_|
 
 
 ### For the README.md file, only the PRs involving changes to the Contributors table would be accepted.
