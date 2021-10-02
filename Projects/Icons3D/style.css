@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    transition: 1s;
+}
+
+.js-tilt-glare{
+    border-radius: 10px;
+}
+
+.sci{
+    position: relative;
+    display: flex;
+}
+
+.sci li{
+    list-style-type: none;
+}
+
+.sci li::before {
+    font-weight: 700;
+    content: attr(data-text);
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, calc(-50% + 120px));
+    font-size: 14vw;
+    pointer-events: none;
+    transition: 0.5s;
+    opacity: 0;
+
+}
+
+.sci li:hover::before{
+    opacity: 1;
+    transform: translate(-50%, calc(-50% + 150px));
+}
+
+
+.sci li a{
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 4em;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    box-shadow: 0 25px 35px rgba(0, 0, 0, 0.1);
+    transition: background 0.25s ;
+}
+
+.sci li a:hover.facebook{
+    background: #1877f2;
+}
+.sci li a:hover.youtube{
+    background: #ff0000;
+}
+
+.sci li a:hover.whatsapp{
+    background: #25D366;
+}
+
+.sci li a:hover.instagram{
+    background: #E1306C;
+}
+
+.sci li a .fa{
+    transition: 0.25s;
+    pointer-events: none;
+}
+
+.sci li a:hover .fa{
+    color: white;
+    transform: scale(1.75) translateZ(50px);
+}
