@@ -1,0 +1,152 @@
+body{
+    margin: 0%;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1{
+    margin-top: 0%;
+    font-family: 'Rock Salt', cursive;
+    font-size: 70px;
+    color: #00ADB5;
+    line-height: 2;
+}
+
+h2{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 40px;
+    color: #171717;
+    
+}
+
+p{
+    line-height: 2;
+}
+
+h3{
+    color: #393E46;
+}
+
+a{
+    color: #DA0037;
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color:#ec738d
+}
+
+hr{
+    border-style: dotted none none none;
+    height: 3px;
+    border-width: 5px;
+    color: #F0E5CF;
+    width: 100px;
+}
+
+.top-container{
+    background-color: #EDEDED;
+    padding-top: 100px;
+    position: relative;
+
+}
+
+.middle-container{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #7A81EB;
+    
+    
+}
+.bottom-container{
+    background-color: #c1eb2a;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+}
+
+.profile{
+    margin: 100px auto 100px auto;
+    width: 50%;
+}
+
+.contact-me{
+    margin: 100px auto 100px auto;
+    width: 50%;
+}
+
+.mt-fuji{
+    width: 60%;
+    height: 60%;
+}
+
+.planets{
+    height: 150px;
+    width: 150px;
+}
+
+.skill-row{
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill1-picture{
+    float: left;
+    padding: 30px;
+}
+.skill2-picture{
+    float: right;
+    padding: 30px;
+}
+
+.btn {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 15px;
+    background-color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    background: #3C3D46;
+    border: solid #000000 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+
+#pluto{
+    position: absolute;
+    left:50px;
+}
+
+#venus{
+    position: absolute;
+    right: 150px;
+    top:50px
+}
+
+#header-para{
+    font-weight: normal;
+    font-size: 30px;
+}
+
+#dp{
+    width: 220px;
+    height: 220px;
+}
