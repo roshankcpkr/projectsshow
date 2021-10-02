@@ -1,0 +1,35 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#timerbody{
+    outline: double 2px yellow;
+    outline-offset: -10px;
+    height: 600px;
+    width: 700px;
+    background-color: rgb(20, 32, 70);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#inTime{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#inTime>h2{
+    margin-right: 30px;
+    font-size: xx-large;
+}

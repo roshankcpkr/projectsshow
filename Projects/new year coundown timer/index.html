@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>CountDown Timer</title>
+</head>
+
+<body>
+    <div id="timerbody">
+        <h1 style="color: yellow; font-size:35px; font-family: monospace; border-bottom: 2px dotted yellowgreen;">TIME
+            LEFT FOR NEW YEAR!!</h1>
+        <div id="inTime">
+            <h2 id="showDays" style="color: aqua;"></h2>
+            <h2 id="showHours" style="color: rgb(243, 142, 102);"></h2>
+            <h2 id="showMinutes" style="color: rgb(255, 96, 221);"></h2>
+            <h2 id="showSeconds" style="color: rgb(216, 255, 73);"></h2>
+        </div>
+        <h1 id="nymsg" style="display: none; color: rgb(255, 208, 0); border-bottom: 2px dotted yellowgreen;">HAPPY NEW
+            YEAR 2022!!!!</h1>
+        <h1 id="remmsg"
+            style=" display: unset;color: yellow; font-size:25px; font-family: monospace; border-bottom: 2px dotted yellowgreen;">
+            MORE TO GO!!</h1>
+    </div>
+
+    <script>
+        var countDownDate = new Date("JAN 1, 2022 00:00:00").getTime();
+        var timerFunc = setInterval(() => {
+            var date = new Date().getTime();
+            var remainingTime = countDownDate - date;
+
+            if (remainingTime <= 1) {
+                document.getElementById('nymsg').style.display = "unset"
+                document.getElementById('remmsg').style.display = "none"
+                clearInterval(timerFunc);
+            }
+
+            var days = Math.floor(remainingTime / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((remainingTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
+
+
+            document.getElementById('showDays').innerHTML = days + " days"
+            document.getElementById('showHours').innerHTML = hours + " hours"
+            document.getElementById('showMinutes').innerHTML = minutes + " minutes"
+            document.getElementById('showSeconds').innerHTML = seconds + " seconds"
+        }, 1000)
+    </script>
+</body>
+
+</html>
