@@ -1,0 +1,137 @@
+<!-- 
+    Contributed by-
+        Mohammad Haziq Khan
+        GitHub: haaaziq
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To-Do App</title>
+        <link rel="shortcut icon" href="https://img.icons8.com/fluent/96/000000/to-do.png" type="image/x-icon">
+        <!-- ROBOTO GFont -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+        <!-- Custom Style sheet -->
+        <link rel="stylesheet" href="assets/css/app.css">
+        <!-- jQuery -->
+        <script src="assets/js/lib/jquery-3.5.1.min.js"></script>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    </head>
+    <body>
+
+        <!----------------- NAV --------------------->
+
+        <nav class="sticky-top navbar navbar-expand-lg navbar-dark bg-dark py-1">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="./index.html">
+                <i class="fas fa-list-ul"></i> To-Do
+            </a>
+        
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-lg-0">
+                
+            </ul>
+
+            <form class="form-inline my-4 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search To-Dos" aria-label="Search">
+                <button class="btn btn-sm btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            </div>
+        </nav>
+      <!----------------- /NAV --------------------->
+
+        <div class="container">
+            <h1 class="display-4"><i class="fas fa-tasks"></i> Manage your To-Dos</h1>
+            <p class="lead">Manage all of your to-dos at a single place.</p>
+            <hr>
+            
+            <div id="mainSection">
+                <div class="innerContainer">
+                    <h5>To-do <span class="countNos">4</span></h5>
+                    <i class="addButton add1 fas fa-plus"></i>
+                    <input type="text" class="input1 inputField " placeholder="Add New">
+                    <ul class="new1">
+                        <li>
+                            <span class="bin del"><i class="fas fa-trash"></i></span> 
+                            Complete the course 
+                            <span class="rightIcons">
+                                <i class="fas fa-check"></i>
+                                <i class="fas fa-arrow-circle-right"></i>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="bin del"><i class="fas fa-trash"></i></span> 
+                            Publish to Youtube
+                            <span class="rightIcons">
+                                <i class="fas fa-check"></i>
+                                <i class="fas fa-arrow-circle-right"></i>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="bin del"><i class="fas fa-trash"></i></span> 
+                            Graphics Assignment
+                            <span class="rightIcons">
+                                <i class="fas fa-check"></i>
+                                <i class="fas fa-arrow-circle-right"></i>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="bin del"><i class="fas fa-trash"></i></span> 
+                            Shell Script
+                            <span class="rightIcons">
+                                <i class="fas fa-check"></i>
+                                <i class="fas fa-arrow-circle-right"></i>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="innerContainer">
+                    <h5>In progress <span class="countNos">2</span></h5>
+                    <i class="addButton add2 fas fa-plus"></i>
+                    <input type="text" class="input2 inputField " placeholder="Add New">
+                    <ul class="inProgress">
+                        <li>
+                            <span class="bin del"><i class="fas fa-trash"></i></span> 
+                            Bezier Curve
+                            <span class="rightIcons">
+                                <i class="fas fa-check"></i>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="bin del"><i class="fas fa-trash"></i></span> 
+                            Development
+                            <span class="rightIcons">
+                                <i class="fas fa-check"></i>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="innerContainer">
+                    <h5>Completed <span class="countNos">1</span></h5>
+                    <i class="addButton add3 fas fa-plus"></i>
+                    <input type="text" class="input3 inputField " placeholder="Add New">
+                    <ul class="done">
+                        <li>
+                            <span class="bin del"><i class="fas fa-trash"></i></span> 
+                            Buy Groceries
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        
+        <script src="assets/js/app.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    </body>
+</html>
