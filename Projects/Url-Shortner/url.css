@@ -1,0 +1,127 @@
+*,
+*::after,
+*:before {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font: normal 20px/1.5 sans-serif;
+	color: #fff;
+}
+
+body{
+	background-image: url("url.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+}
+a:link {
+	color: white;
+	background-color: transparent;
+  }
+  a:visited {
+	color: rgb(213, 213, 213);
+	background-color: transparent;
+	text-decoration: none;
+  }
+  
+  a:hover {
+	color: rgb(255, 255, 255);
+	font-size:larger;
+	background-color: transparent;
+  }
+  
+
+h1 {
+	margin: 2rem auto;
+	text-align: center;
+	color: #fff;
+	padding: 10px;
+	font-weight: 100;
+}
+
+#form-user {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#form-user > * {
+	margin-bottom: 10px;
+}
+
+#form-user input {
+	height: 2rem;
+	font-size: 1rem;
+	width: 70%;
+	padding: 5px;
+}
+
+button {
+	font-size: 1rem;
+	border: 1px solid rgb(255, 255, 255);
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 0.6rem 4rem;
+	margin-top: 2rem;
+	background-color: rgba(16, 29, 72, 0.405);
+	transition-duration: 0.4s;
+	color: white;
+	outline-style: none;
+	cursor: pointer;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+button:hover {
+	border: 1px solid rgb(255, 255, 255);
+	box-shadow: 0 8px 16px 0 rgba(124, 124, 124, 0.2), 0 6px 20px 0 rgba(124, 124, 124, 0.19);
+	background-color: rgba(16, 29, 72, 0.391);
+	color: rgb(255, 255, 255);
+}
+
+#result,
+#error {
+	display: flex;
+	color: #fff;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 2rem;
+}
+
+#error {
+	color: rgb(255, 255, 255);
+}
+
+.loader {
+	position: absolute;
+	padding: 5px;
+	right: 10px;
+	width: 15px;
+	height: 15px;
+	border: 2px solid transparent;
+	border-top-color: #fff;
+	border-bottom-color: #fff;
+	border-radius: 50%;
+	animation: rotate 0.6s linear infinite forwards;
+}
+
+button:hover .loader {
+	border-top-color: rgba(255, 255, 255, 0.891);
+	border-bottom-color: rgba(255, 255, 255, 0.953);
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
