@@ -11,7 +11,7 @@
 
 <body>
     <div id="timerbody">
-        <h1 style="color: yellow; font-size:35px; font-family: monospace; border-bottom: 2px dotted yellowgreen;">TIME
+        <h1 id="heading" style="color: yellow; font-size:35px; font-family: monospace; border-bottom: 2px dotted yellowgreen;">TIME
             LEFT FOR NEW YEAR!!</h1>
         <div id="inTime">
             <h2 id="showDays" style="color: aqua;"></h2>
@@ -34,7 +34,15 @@
 
             if (remainingTime <= 1) {
                 document.getElementById('nymsg').style.display = "unset"
+                document.getElementById('nymsg').style.position = "absolute"
+                document.getElementById('nymsg').style.top = "2rem"
                 document.getElementById('remmsg').style.display = "none"
+                document.getElementById('timerbody').style.backgroundImage = "url('./images/fireworks.jpeg')"
+                document.getElementById('heading').style.display = "none"
+                document.getElementById('showDays').style.display = "none"
+                document.getElementById('showHours').style.display = "none"
+                document.getElementById('showMinutes').style.display = "none" 
+                document.getElementById('showSeconds').style.display = "none"
                 clearInterval(timerFunc);
             }
 
