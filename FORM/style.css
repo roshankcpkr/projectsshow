@@ -1,0 +1,89 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url(college.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 700px;
+	background: #fff;
+	padding: 45px;
+	box-sizing: border-box;
+	border :1px solid rgba(0,0,0,.1);
+	box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+.container h1
+{
+	text-align: center;
+	margin: 0 0 40px;
+	padding: 0;
+	color: rgb(66,133,244);
+	letter-spacing: 2px;
+}
+.container input
+{
+	padding: 5px;
+	margin-bottom: 30px;
+	width: 55%;
+	box-sizing: border-box;
+	box-shadow: none;
+	outline: none;
+	border:none;
+	border-bottom: 2px solid #999;
+}
+.container input[type="submit"]
+{
+	border-radius: 25px;
+	font-size: 20px;
+	height: 40px;
+	cursor : pointer;
+	background: rgb(66,133,244);
+	color: #fff;
+	margin-bottom: 0;
+}
+.container input[type="submit"]:hover
+{
+	background: #34F458;
+	color: #fff;
+}
+.container form div
+{
+	position: relative;
+}
+.container form div label
+{
+	position: absolute;
+	top: 3px;
+	pointer-events: none;
+	left: 0;
+	transition: .5s;
+}
+.container input:focus ~label,
+.container input:valid ~label
+{
+	left: 0;
+	top: -20px;
+	color: rgb(66,133,244);
+	font-size: 12px;
+	font-weight: bold;
+}
+.container input:focus,
+.container input:valid
+{
+	border-bottom: 2px solid rgb(66,133,244);
+}
+.error_form
+{
+	top: 12px;
+	color: rgb(216, 15, 15);
+    font-size: 15px;
+    font-family: Helvetica;
+}
