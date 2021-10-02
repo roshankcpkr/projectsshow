@@ -31,7 +31,7 @@ If you’ve never contributed to open source before, this is the perfect time to
 | _Planktonzz_                                           | _Cybersecurity, Web-development_|
 | _haaaziq_                                              | _Web-development, Flutter, Cricket_|
 | _Bil Abror_                                           | _Web-development_|
-
+|_Biplab Bhattacharya_                                   |_Web-development,blogging_|
 ### If you are changing READ.me file then only one who contributed to projects can change it.
 
 ### Go through Every content and create pull request for issues.
