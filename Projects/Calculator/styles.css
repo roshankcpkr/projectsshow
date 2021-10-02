@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lexend Mega', sans-serif; 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:teal ;
+}
+
+.calci {
+    width: 300px;
+    min-height: 400px;
+    backdrop-filter: blur(20px);
+    background-color: #fff1;
+    box-shadow: 20px 20px 50px #00000080;
+    border: 2px solid #fff3;
+    overflow: hidden;
+}
+input {
+    width: 100%;
+    height: 100px;
+    background-color: #fff7;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #115b94;
+    padding: 0 15px;
+    text-align: right;
+}
+
+input::placeholder {
+    color: #115b94;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.calCol {
+    display: grid;
+    grid-gap: 5px;
+}
+
+.calCol .btn,
+.calCol .resultBtn {
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    background-color: #fff1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.calCol .btn::before,
+.calCol .resultBtn::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: #fff5;
+}
+
+.calCol .resultBtn {
+    height: 145px;
+}
+
+.calCol .btn:active:before,
+.calCol .resultBtn:active:before {
+    animation: animate 1s linear;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(0.6);
+        opacity: 0.6;
+        border-radius: 50%;
+    }
+    100% {
+        transform: scale(4.5);
+        opacity: 1;
+        border-radius: 0;
+    }
+}
+
+/* h3 {
+    background-color: ;
+    color: rgb(190, 18, 18);
+    text-align: center;
+    
+} */
