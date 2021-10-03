@@ -29,6 +29,10 @@ If you’ve never contributed to open source before, this is the perfect time to
 | _smil-thakur_                                          | _flutter, c++, football_|
 | _Prabesh Sapkota_                                      | _CyberSec, Programming, Robotics_|
 | _Planktonzz_                                           | _Cybersecurity, Web-development_|
+| _haaaziq_                                              | _Web-development, Flutter, Cricket_|
+| _Bil Abror_                                            | _Web-development_|
+| gourav chawla                                          | _Frontend web-developer, c++_    |
+| Abhi Tyagi                                             | _web-developer, python, c++_    |
 | _Namrutha Hari_                                        | _Web Development, Cloud_|
 
 
