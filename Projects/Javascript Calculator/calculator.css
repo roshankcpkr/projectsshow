@@ -1,0 +1,53 @@
+.container{
+    width: 40vw;
+    margin: auto;
+    border: 1px solid black;
+}
+h1 {
+    text-align: center;
+}
+input[type=text] {
+    display: block;
+    margin: 20px auto;
+    width:80%;
+    height:60px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+input[type=button] {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+input[type=button]:hover {
+    background: rgb(229, 229, 229);
+}
+#out {
+    text-align: end;
+    padding-right: 10px;
+}
+#equalTo {
+    background-color:rgb(76, 222, 248);
+}
+.buttons {
+    width:80%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+.buttons .cls-1 {
+        width: 60%;
+        background-color: rgb(255, 185, 185);
+        margin: 20px;
+}
+.buttons .cls-2 {
+        width: 30%;
+}      
+@media only screen and (max-width: 768px) {
+    .container {width: 80vw;}
+}
