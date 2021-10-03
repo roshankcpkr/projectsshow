@@ -33,7 +33,7 @@ If you’ve never contributed to open source before, this is the perfect time to
 | _Bil Abror_                                            | _Web-development_|
 | gourav chawla                                          | _Frontend web-developer, c++_    |
 | Abhi Tyagi                                             | _web-developer, python, c++_    |
-
+| _Satkar Acharya_                                             | _web-developer,flutter, c++_    |
 ### If you are changing READ.me file then only one who contributed to projects can change it.
 
 ### Go through Every content and create pull request for issues.
