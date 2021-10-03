@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: orange;
+}
+.words {
+  width: 80vw;
+  height: auto;
+  min-height: 25px;
+  padding: 1em;
+  margin: 25px auto;
+  background-color: rgb(253, 255, 253);
+  box-shadow: 2px 2px 3px black;
+  border-radius: 3px;
+  position: relative;
+}
+
+ion-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 2rem;
+  color: silver;
+  cursor: pointer;
+}
+
+h1 {
+  color: #4671ea;
+  font-size: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+}
+
+#input-text {
+  width: 100%;
+  height: 50px;
+  border-color: #bfbfbf;
+  outline: none;
+  resize: none;
+  max-height: 330px;
+  padding: 0.5rem;
+  font-size: 1em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#input-text:focus {
+  border-width: 2px;
+  border-color: #4671ea;
+}
+
+#input-text::-webkit-scrollbar {
+  width: 0px;
+}
