@@ -24,7 +24,7 @@
 | _Bil Abror_                                            | _Web-development_|
 | gourav chawla                                          | _Frontend web-developer, c++_    |
 | Abhi Tyagi                                             | _web-developer, python, c++_    |
-
+| Shaman Siddique                                        | _Web-Devloper_|
 
 ### You can add your projects in the Projects directory. You can also edit existing files. 
 ### Follow the instructions of CONTRIBUTING.md properly.
