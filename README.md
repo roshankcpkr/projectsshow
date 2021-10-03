@@ -34,9 +34,6 @@ If you’ve never contributed to open source before, this is the perfect time to
 | gourav chawla                                          | _Frontend web-developer, c++_    |
 | Abhi Tyagi                                             | _web-developer, python, c++_    |
 
-### If you are changing READ.me file then only one who contributed to projects can change it.
-
-### Go through Every content and create pull request for issues.
 
 ### You can add your projects in the Projects directory. You can also edit existing files. 
 ### Follow the instructions of CONTRIBUTING.md properly.
@@ -55,36 +52,10 @@ If you’ve never contributed to open source before, this is the perfect time to
 
  3. Open the folder in your favourite code editor and add your changes or modifications.
 
-## Creating a PR 
- 
- 1. After making changes or modification on to your code locally, you need to add these files to the staging area.
-```bash
-  git add <file-name>
-```
- 2. Once files added, you need to commit the changes to with an appropriate commit message.
-```bash
-  git commit -m "<your-message>"
-```
- 3. After commiting the changes, you need to push the changes
-```bash
-   git push origin <branch-name>
-```
- 4. Once you push the changes to your repository, the Compare & pull request button will appear in GitHub.
-
- 5. Click it and you'll be taken to this screen
-
- 6. Type a proper description and give the PR an appropriate title. Finally, Open a pull request by clicking the Create pull request button.
-
- 7. That's it. You have opened a PR. Wait for it to get merged.
 
 # :handshake: Our Contributors
 <a href="https://github.com/roshankcpkr/Hacktoberfest-web/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=roshankcpkr/Hacktoberfest-web" />
 </a>
-
-# Recommended Repos 
-- https://github.com/hctnm1/HacktoberFest-Python/
-- https://github.com/hctnm1/HacktoberFest-2021/
-- https://github.com/V35HR4J/Your-First-Contribution
 
 ## Thank You for your Amazing Contribution!!
