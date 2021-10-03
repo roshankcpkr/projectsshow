@@ -38,9 +38,7 @@ If you’ve never contributed to open source before, this is the perfect time to
 ### You can add your projects in the Projects directory. You can also edit existing files. 
 ### Follow the instructions of CONTRIBUTING.md properly.
 ## 🎯Objectives
-**The Main Objectives of this Repositry is to help People for their Contribution in Hacktoberfest 2021**
 
- 3. Open the folder in your favourite code editor and add your changes or modifications.
 
 
 # :handshake: Our Contributors
