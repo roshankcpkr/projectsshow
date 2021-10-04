@@ -1,5 +1,3 @@
-
-
 ## Show your projects here
 
 <p align="justify">This repository has many projects and issues. You shall first fork the repository and fix the issue and commit changes. After that create pull request. Contribute your codes in projects directory</p>
@@ -7,12 +5,13 @@
 <p align ="justify">We shall create a website in this repository. So you can add pages files, css or js functionalities. </p>
   <p align ="justify">Add your other projects too. You can add projects made in any language. Think and create PR.</p>
 
-## You need to do some serious contribution. 
+## You need to do some serious contribution.
 
 ## Contributors for our project
 
 ## Add your information below the names
 
+### You can add your projects in the Projects directory. You can also edit existing files.
 | Contributors                                           | Interests              |
 | ------------------------------------------------------ | ---------------------- |
 | _Roshan K.C_                                           | _Programing, blogging, security_|
@@ -26,14 +25,12 @@
 | Abhi Tyagi                                             | _web-developer, python, c++_    |
 | Namrutha Hari                                          | _Web-Developer, Cloud_|
 
-
-### You can add your projects in the Projects directory. You can also edit existing files. 
 ### Follow the instructions of CONTRIBUTING.md properly.
+
 ## 🎯Objectives
 
-
-
 # :handshake: Our Contributors
+
 <a href="https://github.com/roshankcpkr/Hacktoberfest-web/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=roshankcpkr/Hacktoberfest-web" />
 </a>
