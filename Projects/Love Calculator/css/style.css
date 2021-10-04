@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Main Design Start */
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: slateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h1 {
+    text-align: center;
+}
+
+form .input-box input {
+    padding: 20px 100px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: slateblue;
+    transition: .5s all ease;
+}
+
+form .input-box input:hover {
+    color: rgb(103, 9, 253);
+}
+
+.btn{
+    padding: 10px 0px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: #ddd;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    border: 2px solid rgb(219, 33, 9);
+    background-color: white;
+    color: #000;
+}
