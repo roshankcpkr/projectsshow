@@ -21,9 +21,10 @@
 | _Planktonzz_                                           | _Cybersecurity, Web-development_|
 | _haaaziq_                                              | _Web-development, Flutter, Cricket_|
 | _Bil Abror_                                            | _Web-development_|
-| gourav chawla                                          | _Frontend web-developer, c++_    |
-| Abhi Tyagi                                             | _web-developer, python, c++_    |
-| Namrutha Hari                                          | _Web-Developer, Cloud_|
+| _gourav chawla_                                        | _Frontend web-developer, c++_    |
+| _Abhi Tyagi_                                           | _web-developer, python, c++_    |
+| _Namrutha Hari_                                        | _Web-Developer, Cloud_|
+| _Deep Mittal_                                          | _Web-Developer, python_|
 
 ### Follow the instructions of CONTRIBUTING.md properly.
 
