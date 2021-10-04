@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+h1{
+    font-size: 40pt;
+    background-color: black;
+    color: chartreuse;
+    border: 2px solid chartreuse;
+    border-radius: 20px;
+    padding: 0px 5px;
+    margin: 10px;
+}
+.heading{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#difficulty,#time,#theme{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: chartreuse;
+    padding: 20px 15px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid chartreuse;
+}
+
+#easy,#medium,#hard,#dark,#light,#three,#five,#ten{
+    flex: 1;
+}
+#difficulty > h3 , #time > h3 , #theme > h3{
+    padding: 10px;
+    font-size: 30px;
+}
+input[type=radio]{
+    height: 30px;
+    width: 30px;   
+}
+span{
+    padding: 0px 10px;
+    font-size: 35px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.timer{
+    background-color: black;
+    color: yellowgreen;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid yellowgreen;
+    font-size: 2em;
+}
+#timer{
+    color: yellowgreen;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1em;
+}
+#board{
+    display: grid;
+    grid-template-columns: repeat(9,60px);
+    grid-template-rows: repeat(9,60px);
+    border: 2.5px solid black;
+    margin-bottom: 10px;
+}
+.cell{
+    display: flex;
+    background-color: rgb(223, 203, 203);
+    border: 1px dotted black;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.cell:hover{
+    cursor: pointer;
+}
+.cell:active{
+    border: 2px solid black;
+}
+.right{
+    border-right: 2.5px solid black;
+}
+.bottom{
+    border-bottom: 2px solid black;
+}
+
+#generate{
+    font-size: 30px;
+    width: 300px;
+    margin: 10px;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+#solve{
+    font-size: 30px;
+    width: 300px;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#generate:hover,#solve:hover{
+    background-color: black;
+    color: yellowgreen;
+    border-radius: 10px;
+    border: 2px solid yellowgreen;
+}

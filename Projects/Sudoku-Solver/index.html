@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <div id="Name">
+        <h1>Sudoku Game</h1>
+    </div>
+    <div class="heading">
+        <div id="difficulty">
+            <h3>Difficulty : </h3>
+            <input type="radio" value="easy" name="diff" id="easy" checked> <span> Easy </span>
+            <input type="radio" value="medium" name="diff" id="medium"> <span> Medium </span>
+            <input type="radio" value="hard" name="diff" id="hard"> <span> Hard </span>
+            
+        </div>
+        <div id="theme">
+            <h3>Theme : </h3>
+            <input type="radio" value = "light" onClick = "document.bgColor='white'" name="theme" checked id="light" > <span> Light </span>
+            <input type="radio" value = "dark"  onClick = "document.bgColor='#333333'" name="theme" id="dark"> <span> Dark </span>
+        </div>
+    </div>
+</header>
+<body id="bcolor">
+    <div class="container">
+            <div class="timer">
+                Time Taken : 
+                <span id="timer">00 : 00 : 00</span>
+            </div>
+            <div id="board">
+                <div id="0" class="cell"></div>
+                <div id="1" class="cell"></div>
+                <div id="2" class="cell right"></div>
+                <div id="3" class="cell"></div>
+                <div id="4" class="cell"></div>
+                <div id="5" class="cell right" ></div>
+                <div id="6" class="cell"></div>
+                <div id="7" class="cell"></div>
+                <div id="8" class="cell right"></div>
+                <div id="9" class="cell"></div>
+                <div id="10" class="cell"></div>
+                <div id="11" class="cell right"></div>
+                <div id="12" class="cell"></div>
+                <div id="13" class="cell"></div>
+                <div id="14" class="cell right"></div>
+                <div id="15" class="cell"></div>
+                <div id="16" class="cell"></div>
+                <div id="17" class="cell right"></div>
+                <div id="18" class="cell bottom"></div>
+                <div id="19" class="cell bottom"></div>
+                <div id="20" class="cell right bottom"></div>
+                <div id="21" class="cell bottom"></div>
+                <div id="22" class="cell bottom"></div>
+                <div id="23" class="cell right bottom"></div>
+                <div id="24" class="cell bottom"></div>
+                <div id="25" class="cell bottom"></div>
+                <div id="26" class="cell right bottom"></div>
+                <div id="27" class="cell"></div>
+                <div id="28" class="cell"></div>
+                <div id="29" class="cell right"></div>
+                <div id="30" class="cell"></div>
+                <div id="31" class="cell"></div>
+                <div id="32" class="cell right" ></div>
+                <div id="33" class="cell"></div>
+                <div id="34" class="cell"></div>
+                <div id="35" class="cell right"></div>
+                <div id="36" class="cell"></div>
+                <div id="37" class="cell"></div>
+                <div id="38" class="cell right"></div>
+                <div id="39" class="cell"></div>
+                <div id="40" class="cell"></div>
+                <div id="41" class="cell right" ></div>
+                <div id="42" class="cell"></div>
+                <div id="43" class="cell"></div>
+                <div id="44" class="cell right" ></div>
+                <div id="45" class="cell bottom"></div>
+                <div id="46" class="cell bottom"></div>
+                <div id="47" class="cell right bottom"></div>
+                <div id="48" class="cell bottom"></div>
+                <div id="49" class="cell bottom"></div>
+                <div id="50" class="cell right bottom"></div>
+                <div id="51" class="cell bottom"></div>
+                <div id="52" class="cell bottom"></div>
+                <div id="53" class="cell right bottom"></div>
+                <div id="54" class="cell"></div>
+                <div id="55" class="cell"></div>
+                <div id="56" class="cell right"></div>
+                <div id="57" class="cell"></div>
+                <div id="58" class="cell"></div>
+                <div id="59" class="cell right"></div>
+                <div id="60" class="cell"></div>
+                <div id="61" class="cell"></div>
+                <div id="62" class="cell right"></div>
+                <div id="63" class="cell"></div>
+                <div id="64" class="cell"></div>
+                <div id="65" class="cell right"></div>
+                <div id="66" class="cell"></div>
+                <div id="67" class="cell"></div>
+                <div id="68" class="cell right"></div>
+                <div id="69" class="cell"></div>
+                <div id="70" class="cell"></div>
+                <div id="71" class="cell right"></div>
+                <div id="72" class="cell"></div>
+                <div id="73" class="cell"></div>
+                <div id="74" class="cell right"></div>
+                <div id="75" class="cell"></div>
+                <div id="76" class="cell"></div>
+                <div id="77" class="cell right"></div>
+                <div id="78" class="cell"></div>
+                <div id="79" class="cell"></div>
+                <div id="80" class="cell right"></div>
+            </div>
+            <div id="generator">
+                <button id="generate">Generate New Puzzle</button>
+            </div>
+            <div id="solver">
+                <button id="solve">Solve The Puzzle</button>
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
