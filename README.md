@@ -27,6 +27,7 @@
 |Deep Gandhi                                           | Football, Finance, Backend Development|
 | Krishnapal Rajput                                      | _Web-Developer_|
 | Chris Houston                                          | _Web-Developer, Mobile Apps_ |
+| Sanyam Jain                                          | _MERN-Stack-Developer, Java, Data-Structures-and-Algos_ |
 ### Follow the instructions of CONTRIBUTING.md properly.
 
 ## 🎯Objectives
