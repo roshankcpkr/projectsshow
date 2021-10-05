@@ -25,6 +25,8 @@
 | Abhi Tyagi                                             | _web-developer, python, c++_    |
 | Namrutha Hari                                          | _Web-Developer, Cloud_|
 |Deep Gandhi                                           | Football, Finance, Backend Development|
+| Krishnapal Rajput                                      | _Web-Developer_|
+| Chris Houston                                          | _Web-Developer, Mobile Apps_ |
 ### Follow the instructions of CONTRIBUTING.md properly.
 
 ## 🎯Objectives
