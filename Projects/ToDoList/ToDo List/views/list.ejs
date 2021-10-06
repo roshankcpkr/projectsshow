@@ -1,0 +1,47 @@
+<%- include("header") -%>
+
+    <!DOCTYPE html>
+    <html lang="en" dir="ltr">
+
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=0.8,user-scalable=no" />
+        <meta charset="utf-8">
+        <title>To do list</title>
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div class="box" id="heading">
+            <h1>
+                <%= lt %>
+            </h1>
+        </div>
+
+        <div class="box">
+
+
+            <% for (var i=0; i<newListItems.length; i++) { %>
+                <div class="item">
+
+                    <input type="checkbox">
+                    <p>
+                        <%= newListItems[i] %>
+                    </p>
+                </div>
+                <% } %>
+
+                    <form method="POST" action="/" class="item">
+                        <input type="text" name="newItem" placeholder="New Item" required autocomplete="off">
+                        <button type="submit" name="list" value=<%=lt%>>  + </button>
+                    </form>
+        </div>
+
+        <%- include("footer") -%>
+
+    </body>
+
+
+
+    </html>
