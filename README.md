@@ -27,6 +27,7 @@
 |Deep Gandhi                                           | Football, Finance, Backend Development|
 | Krishnapal Rajput                                      | _Web-Developer_|
 | Chris Houston                                          | _Web-Developer, Mobile Apps_ |
+| Devansh Upadhyay                                       |AI,ML,Data Science |
 ### Follow the instructions of CONTRIBUTING.md properly.
 
 ## 🎯Objectives
