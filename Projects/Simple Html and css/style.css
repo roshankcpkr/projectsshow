@@ -1,0 +1,178 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+body {
+  background-color: #D4ECDD;
+  font-family: system-ui;
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+h3 {
+  color: #000000;
+}
+
+/*footer*/
+.footer {
+  font-size: 27px;
+  padding: 2px;
+  background-color: #345B63;
+  text-align: center;
+  font-weight: bold;
+  color: #f5e6ca;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav {
+  background-color: #000000;
+  padding: 2px;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/*sticky nav*/
+.img {
+  height: 50px;
+  width: 50px;
+}
+
+nav {
+  background-color: #152D35;
+  padding: 3px;
+  position: sticky;
+  top: 0;
+  text-align: right;
+  text-shadow: #000000;
+  font-weight: bold;
+}
+
+header {
+  display: inline;
+}
+
+p {
+  letter-spacing: 1px;
+}
+
+h1 {
+  letter-spacing: 3px;
+}
+
+h2 {
+  letter-spacing: 1px;
+}
+
+h3 {
+  letter-spacing: 1px;
+}
+
+/*aside*/
+.profile header {
+  text-align: center;
+}
+
+.profile img {
+  width: 200px;
+  text-align: center;
+}
+
+/*footer*/
+
+footer {
+  padding: 18px;
+  background-color: #112031;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: bold;
+}
+
+/*foto*/
+
+.featured-image {
+  width: 100%;
+  max-height: 600px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/*foto aside*/
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*content*/
+
+.card {
+  box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 45px;
+}
+
+.card:hover {
+  box-shadow: 2px 8px 16px 4px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#content {
+  float: left;
+  width: 75%;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*atur screen*/
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
