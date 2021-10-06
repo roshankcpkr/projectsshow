@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+      <title>URL Shortener by Soumyadeepta Das</title>
+      
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+      <div class="container">
+        <h2>URL Shortener Microservice: API</h2>
+        <h3>Overview: </h3>
+        <ol>
+          <li>POST a URL to <code>[project_url]/api/shorturl/new</code> and receive a shortened URL in the JSON response.<br>Example : <code>{"original_url":"www.google.com","short_url":1}</code></li>
+          <li>Valid URL format <code>http(s)://www.example.com(/more/routes)</code></li>
+          
+          <li>the shortened URL redirects to the original link.</li>
+        </ol>
+        <br>
+        
+        <h3>POST URL here: </h3>
+        
+        <form action="api/shorturl/new" method="POST">
+          <label for="url_input">URL to be shortened: </label>
+          <input id="url_input" type="text" name="url" value="https://www.google.com">
+          <input type="submit" value="POST URL">
+        </form>
+        <h3>Example Usage:</h3>
+        <a href="https://url-shortener-sd.glitch.me/api/shorturl/1">
+          [this_project_url]/api/shorturl/1
+        </a>
+
+        <h3>Will Redirect to:</h3>
+        <p>https://www.google.com</p>
+      </div>
+      <div class="footer">
+        <p>
+          by <a href="https://www.linkedin.com/in/soumyadeepta-das/">Soumyadeepta Das</a>
+        </p>
+      </div>
+   </body>
+
+
+</html>

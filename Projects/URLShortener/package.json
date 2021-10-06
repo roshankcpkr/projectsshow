@@ -1,0 +1,23 @@
+{
+  "name": "url-shortener-sd",
+  "version": "1.0.0",
+  "author": "Soumyadeepta Das",
+  "description": "URL shortener microservice API Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.15",
+    "cors": "^2.8.5",
+    "body-parser": "^1.19.0"
+  },
+  "keywords": [
+    "node",
+    "hyperdev",
+    "express"
+  ],
+  "license": "MIT"
+}
