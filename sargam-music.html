@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .container2 {
+            display: flex;
+        }
+
+        .split {
+            height: 100vh;
+            width: 50%;
+            top: 0;
+        }
+
+        .left {
+            background-color: lightblue;
+            left: 0;
+        }
+
+        .left h1 {
+            text-align: center;
+            font-size: 80px;
+        }
+
+        .right {
+            background-color: lightsalmon;
+            right: 0;
+        }
+
+        .right h3 {
+            color: white;
+            margin-left: 8px;
+            margin-right: 8px;
+            padding: 5px;
+            margin-top: 20%;
+        }
+
+        .footer {
+            background-color: black;
+            color: white;
+            font-size: 13px;
+            padding: 1px;
+            text-align: center;
+        }
+
+        .heading {
+            text-align: center;
+            font-weight: bold;
+            background: linear-gradient(to right, lightblue 50%, lightsalmon 50%);
+            margin-top: -1.5%;
+            padding: 5px;
+        }
+        .heading h2 {
+            font-size: 30px;
+        }
+        .left img{
+            margin-left: 27%;
+            margin-top: -10%;
+        }
+        button{
+            all:unset;
+            border: 2px solid lightblue;
+            padding: 9px;
+            border-radius: 18px;
+            background-color: rgb(148, 201, 219);
+            color: black;
+            margin-left: 15px;
+            font-weight: bold;
+        }
+        button:hover{
+            background-color: lightcoral;
+            font-weight: bold;
+        }
+        /* .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+            }
+            .menu-list {
+            display: flex;
+            padding: 12px 0;
+            }
+            .menu-list li {
+            margin-right: 34px;
+            position: relative;
+            padding-bottom: 16px;
+            margin-bottom: -16px;
+            list-style:none ;
+            }
+            .menu-list li:last-child {
+            margin-right: 0;
+            }
+            .menu-list li a {
+            color:black;
+            text-decoration: none;
+            transition: 0.3s ease-in-out;
+            } */
+    </style>
+</head>
+<body>
+   <div class="heading">
+        <h2><img src="https://img.icons8.com/ios-filled/50/000000/musical-notes.png">  Sargam Music</h2>
+        <p>Call: (880) 875446889</p>
+    </div>
+
+    <div class="container2">
+        <div class="split left">
+            <h1>Welcome<br>to<br>Our<br>Website</h1>
+            <img src="https://img.icons8.com/emoji/256/000000/headphone-emoji.png">
+        </div>
+        <div class="split right">
+            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam earum assumenda a architecto, ex
+                molestias, alias in id repellendus veniam distinctio non pariatur saepe voluptas accusantium omnis optio
+                autem fugiat!<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit, ipsum neque molestiae totam
+                corrupti non maxime ut a eos labore quaerat ducimus deserunt, nulla alias expedita reprehenderit ab
+                soluta?</h3>
+             <button  type="button">Click here</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h3>copyright &copy; | All Rights Reserved</h3>
+    </div>
+</body>
+
+</html>
