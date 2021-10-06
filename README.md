@@ -27,6 +27,7 @@
 |Deep Gandhi                                           | Football, Finance, Backend Development|
 | Krishnapal Rajput                                      | _Web-Developer_|
 | Chris Houston                                          | _Web-Developer, Mobile Apps_ |
+| Soumyadeepta Das                                       | _Web-Developer, Software Engineering, programming |
 ### Follow the instructions of CONTRIBUTING.md properly.
 
 ## 🎯Objectives
