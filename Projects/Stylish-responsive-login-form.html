@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 100%;
+            height:100vh;
+            background-color: blueviolet;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card{
+            width: 350px;
+            height: 500px;
+            box-shadow: 0px 0px 40px 20px rgba(0, 0, 0, 0.295);
+        }
+        .inner-box{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            perspective: 1000px;
+        }
+        .card-front, .card-back{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: navy;
+            /* background-image: url(bg1.jpg); */
+            color: white;
+            background-position: center;
+            background-size: cover;
+            padding: 55px;
+            box-sizing: border-box;
+            backface-visibility: hidden;
+        }
+        .card-back{
+            transform: rotateY(180deg);
+        }
+        .card h2{
+            font-weight: normal;
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .input-box{
+            width: 100%;
+            background: transparent;
+            border: 1px solid #fff;
+            margin: 6px 0;
+            height: 32px;
+            border-radius: 20px;
+            padding: 0 10px;
+            box-sizing: border-box;
+            outline: none;
+            text-align: center;
+            color: #fff;
+        }
+        ::placeholder{
+            color: #fff;
+            font-size: 12px;
+        }
+        button{
+            width: 100%;
+            background: transparent;
+            color: #fff;
+            border: 1px solid #fff;
+            margin: 30px 0 10px;
+            height: 32px;
+            font-size: 12px;
+            border-radius: 20px;
+            padding: 0 10px;
+            box-sizing: border-box;
+            outline: none;
+            cursor: pointer;
+        }
+        /* .submit-btn{
+            position: relative;
+        } */
+        span{
+            font-size: 13px;
+            margin-left: 10px;
+        }
+        .card .btn{
+            margin-top: 70px;
+        }
+        .card a{
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            font-size: 13px;
+            margin-top: 8px;
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="inner-box" id="card">
+                <div class="card-front">
+                    <h2>Login</h2>
+                    <form>
+                        <input type ="email" class="input-box" placeholder="Your email" required>
+                        <input type ="password" class="input-box" placeholder="Password" required>
+                        <button type="submit" class="submit-btn">Submit</button>
+                        <input type="checkbox"><span>Remember Me</span>
+                    </form>
+                    <button type="button" class="btn" onclick="openRegister()">New User?</button>
+                    <a href="">Forgot Password</a>
+                </div>
+                <div class="card-back">
+                    <h2>Register</h2>
+                    <form>
+                        <input type ="text" class="input-box" placeholder="Your name" required>
+                        <input type ="email" class="input-box" placeholder="Your email" required>
+                        <input type ="password" class="input-box" placeholder="Password" required>
+                        <button type="submit" class="submit-btn">Submit</button>
+                        <input type="checkbox"><span>Remember Me</span>
+                    </form>
+                    <button type="button" class="btn" onclick="openLogin()">Already have a account</button>
+                    <a href="">Forgot Password</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
