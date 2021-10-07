@@ -23,6 +23,7 @@
 | _Bil Abror_                                            | _Web-development_|
 | gourav chawla                                          | _Frontend web-developer, c++_    |
 | Abhi Tyagi                                             | _web-developer, python, c++_    |
+| Ayushi Jain                                            | _web-development, C++, Debugging |
 | Namrutha Hari                                          | _Web-Developer, Cloud_|
 |Deep Gandhi                                           | Football, Finance, Backend Development|
 | Krishnapal Rajput                                      | _Web-Developer_|
