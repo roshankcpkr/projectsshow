@@ -4,6 +4,7 @@
 }
 
 .wrapper {
+    position: relative;
     height: 100vh;
     width: 100%;
     background-color: #eff1ea;
@@ -12,6 +13,7 @@
 }
 
 #clock {
+    padding: auto;
     width: 280px;
     height: 280px;
     background: #25283D;
