@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!--Code By foolishdeveloper.com-->
+<html lang="en" >
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+  <style media="screen">
+    body{
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+  background: #dde1e7;
+  min-height: 100vh;
+}
+.center,.content{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+
+
+}
+
+.click-me{
+  display:block;
+  width:160px;
+  height:50px;
+  background: #dde1e7;
+
+  text-align:center;
+  font-size:22px;
+  line-height:50px;
+  cursor:pointer;
+  box-shadow: -3px -3px 7px #fffdfdcc,
+              3px 3px 5px rgba(94, 104, 121, 0.342);
+
+}
+
+
+#click{
+  display:none;
+}
+.click-me:hover{
+  color: #08adef;
+  box-shadow: inset 2px 2px 5px #babecc,
+              inset -5px -5px 10px #ffffff73;
+}
+.content{
+  opacity:0;
+  visibility:hidden;  
+
+  width: 330px;
+  height: auto;
+
+  background: #dde1e7;
+  padding: 30px 35px 40px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8),
+               6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+#times{
+  position:absolute;
+  right:10px;
+  top:20px;
+  font-size:25px;
+  background: #dde1e7;
+  padding: 3px;
+  padding-left: 11px;
+  padding-right: 11px;
+  border-radius: 50%;
+
+  box-shadow: -4px -4px 7px #fffdfdb7,
+              3px 3px 5px rgba(94, 104, 121, 0.24);
+  cursor:pointer;
+}
+
+
+#click:checked~.content{
+  opacity:1;
+  visibility:visible;
+}
+
+.text{
+  font-size: 30px;
+  color: #000000;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 2px;
+}
+form{
+  margin-top: 40px;
+
+}
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input{
+    display: block;
+    height: 43px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    border: none;
+
+    box-shadow: inset 2px 2px 5px #babecc,
+              inset -5px -5px 10px #ffffff73;
+    margin-top: 8px;
+
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder{
+    color: #4b4e4d;
+    padding-left: 10px;
+}
+button{
+  width: 100%;
+  margin-top: 35px;
+  padding: 12px;
+  background: #dde1e7;
+  border: none;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 32px;
+ box-shadow: -4px -4px 7px #fffdfdb7,
+                3px 3px 5px rgba(94, 104, 121, 0.388);
+}
+button:hover{
+	box-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px rgba(94, 104, 121, 0.692);
+}
+  </style>
+</head>
+
+<body>
+  <div class="center">
+    <input type="checkbox" id="click">
+    <label for="click" class="click-me">Login Form</label>
+    <div class="content">
+      <div class="text">
+        LOGIN
+     </div>
+        <label for="click" id="times">x</label>
+
+
+
+
+         <form>
+
+        <label for="username">Username</label>
+        <input type="text" placeholder="Email or Phone" id="username">
+
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" id="password">
+
+        <button>Log In</button>
+
+    </form>
+
+
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
