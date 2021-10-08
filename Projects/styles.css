@@ -1,22 +1,41 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
 
-        h1{
-            color: burlywood;
-            font-size: normal;
-        }
-        .game{
-    margin-top:50px;
-    border-style: solid;
-    border-color:white;
-    padding-left: 100px;
-    padding-top: 50px;
-    padding-bottom: 30px;
+.dice {
+  text-align: center;
+  display: inline-block;
+
 }
-        .test{
-  border: 1px solid green;
-  margin-top: 30px;
-  margin-bottom: 50px;
-  border-radius:20%;
-  color:white;
-  background-color: grey;
+
+body {
+  background-color: #393E46;
 }
- 
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
