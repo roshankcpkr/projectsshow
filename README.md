@@ -28,7 +28,7 @@
 | Krishnapal Rajput                                      | _Web-Developer_|
 | Chris Houston                                          | _Web-Developer, Mobile Apps_ |
 | Sanyam Jain                                          | _MERN-Stack-Developer, Java, Data-Structures-and-Algos_ |
-| Chris Lopes                                            | _MERN-Stack-Developer, Python_ |
+| Chris Lopes                                            | _MERN-Stack-Developer, Python, React-Native Developer_ |
 ### Follow the instructions of CONTRIBUTING.md properly.
 
 ## 🎯Objectives
