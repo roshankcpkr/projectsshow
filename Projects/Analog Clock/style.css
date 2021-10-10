@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 440px;
+    height: 440px;
+    /* border: 2px solid; */
+    background: url(dial.png) no-repeat center center/cover;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25px;
+    height: 25px;
+    background: #000;
+    border-radius: 50%;
+}
+
+.hour, .minute, .second {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #000;
+    border-radius: 30px;
+    transform-origin: bottom;
+}
+
+.hour {
+    top: 36%;
+    width: 5px;
+    height: 65px;
+}
+
+.minute {
+    top: 31%;
+    width: 6px;
+    height: 85px;
+}
+
+.second {
+    top: 22%;
+    width: 7px;
+    height: 125px;
+}
