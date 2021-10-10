@@ -28,6 +28,7 @@
 | Krishnapal Rajput                                      | _Web-Developer_|
 | Chris Houston                                          | _Web-Developer, Mobile Apps_ |
 | Sanyam Jain                                          | _MERN-Stack-Developer, Java, Data-Structures-and-Algos_ |
+| _Prateek Chaurasia_                                     | _web-developer, C/C++_ |
 ### Follow the instructions of CONTRIBUTING.md properly.
 
 ## 🎯Objectives
