@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        <input value="11"/>
+        <button>generate</button>
+        <br>
+        <p></p>
+        <script>
+          onload= ()=>{
+            let inp = document.querySelector("input");
+            let gnrt = document.querySelector("button");
+            let tags = document.querySelector("p");
+
+            let tagsArr = ["coding", "programming", "developer", "computerscience", "softwareengineer", "html", "css", "javascript", "girlwhocode", "programmingtutorial", "codingtutorial", "devlife", "codingisfun", "webdesign", "webdev", "webdevelopment", "frontend", "frontenddeveloper", "fullstackdeveloper", "androiddeveloper", "python", "java", "cpp", "learntocode", "coder", "developerlife", "codinghumour", "womenwhocode", "designer", "google", "technology", "sde", "database", "btech", "csstudent", "programmingmemes", "codingmeme", "codingjoke", "programmer"];
+
+            let rndm = () => Math.floor(Math.random()*tagsArr.length);
+
+            gnrt.addEventListener("click", ()=>{
+                tags.innerHTML = "";
+                for(let i=0; i<inp.value; i++){
+                    tags.innerHTML += `#${tagsArr.splice(rndm(), 1)} `;
+                }
+            });
+          }
+        </script>
+    </body>
+</html>
