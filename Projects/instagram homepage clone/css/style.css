@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+/* navbar style */
+
+nav{
+    width: 100%;
+    background-color:#fff;
+    height: 54px;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.nav-left{
+    width: 20vw;
+}
+.nav-left img{
+    margin-top: 10px;
+}
+.nav-center{
+    width: 24vw;
+}
+.nav-center input{
+    text-align: center;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid rgb(175, 172, 172);
+    width: 170px;
+}
+.nav-center input:focus{
+    border: 1px solid red;
+}
+.nav-right{
+    width: 10vw;
+}
+.nav-right ul{
+    list-style: none;
+    display: flex;   
+}
+.nav-right ul li{
+    font-size: 25px;
+    margin-left: 20px;
+}
+.fa-user{
+    border-radius: 20px;
+    border: 0.5px solid rgb(160, 157, 157);
+    padding: 3px;
+    font-size: 20px;
+}
+
+/* main style */
+#main-page{
+   margin-top: 80px;
+    display: flex;
+    justify-content: center;
+   
+}
+.main-left{
+    width: 50vw;
+}
+.status{
+    border: 0.5px solid rgb(160, 158, 158); 
+    padding: 15px;
+    display: flex;
+    overflow: scroll;
+
+}
+.icon{  
+    margin-left: 12px;
+    
+}
+.icon img{
+    width: 60px;
+    height: 60px;
+    border: 2px solid rgb(209, 97, 209);
+
+    border-radius: 200px;
+    padding: 2.7px;
+}
+
+.posts .card{
+    margin-bottom: 20px;
+    border: 0.5px solid rgb(160, 158, 158);
+    margin-top: 20px;
+    
+}
+.post-top{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    
+}
+.post-top .icon{
+    display: flex;
+    align-items: center;
+}
+.post-top .icon img{
+    width: 35px;
+    height: 35px;
+}
+.post-top .icon p{
+    margin-left: 15px;
+}
+
+.post-img img{
+    width: 100%;
+    
+}
+
+.bottom1 i{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 6px;
+}
+.bottom1 p{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.comment{
+    display: flex;
+    align-items: center;
+}
+.comment input{
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    margin-right: 12px;
+}
+.comment p{
+    margin-right: 12px;
+    color: #0095f6;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-right{
+    width: 25vw;
+    margin-left: 25px;
+    margin-top: 30px;
+ 
+}
+.profile-name{
+    display: flex;
+    align-items: center;
+}
+.profile-name img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+.profile-name p{
+width: 400px;
+margin-left: 25px;
+}
+#follow{
+    color: #0095f6;
+    font-weight: bold;
+}
+.sugg{
+    margin-top: 30px;
+}
+.sugg img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px
+}
+.sugg .profile-name{
+    margin-top: 12px;
+}
+#sugg-font{
+    color: #8e8e8e;
+    font-weight: bold;
+}
+
