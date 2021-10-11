@@ -31,6 +31,8 @@
 
 ### You can add your projects in the Projects directory. You can also edit existing files. 
 =======
+=======
+| Sanyam Jain                                          | _MERN-Stack-Developer, Java, Data-Structures-and-Algos_ |
 ### Follow the instructions of CONTRIBUTING.md properly.
 
 ## 🎯Objectives
