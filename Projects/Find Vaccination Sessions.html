@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="authour" content="Kashyap Kumar">
+    <title>Covid-19 Planned Vaccination Session - India</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            background-color: #222d32;
+            display: grid;
+            place-items:  center;
+            font-family: arial;
+        }
+        section{
+            min-width: 280px;
+            max-width: 90%;
+            padding: 20px;
+            background-color: #333e43;
+            transition: 0.2s;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        section input{
+            padding: 10px 20px;
+            border: none;
+            outline: none;
+            background-color: #444f54;
+            border-radius: 5px;
+            display: block;
+            width: 100%;
+            margin: 5px 0;
+            color: aliceblue;
+            font-weight: 600;
+        }
+        section input[type=button]{
+            background-color: dodgerblue;
+            color: #222d32;
+        }
+        #info p{
+            background-color: aliceblue;
+            border-radius: 5px;
+            padding: 5px 10px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            <input type="number" value="781354" placeholder="Enter PIN Code">
+            <input type="button" value="Show" id="show">
+        </div>
+        <div id="info"></div>
+    </section>
+
+    <script>
+        document.querySelector("#show").onclick = () => {
+            let pin = document.querySelector("input").value;
+
+            document.getElementById("info").innerHTML = `<p>Address/Center ID(Block Name, District): Date</p>`;
+
+            for(let m=1; m<=12; m++){
+              for(let d=1; d<=31; d++){
+                fetch("https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode="+ pin +"&date="+ d +"-"+ m +"-2021")
+                .then(r => r.json())
+                .then(r => {
+                  if(typeof r.sessions[0] !== undefined){
+                    document.getElementById("info").innerHTML += `<p>${r.sessions[0].address || r.sessions[0].center_id}(${r.sessions[0].block_name}, ${r.sessions[0].district_name}): ${r.sessions[0].date}</p>`;
+                  }
+                })
+              }
+            }
+
+        }
+        
+    </script>
+</body>
+</html>
