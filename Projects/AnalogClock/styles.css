@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(170, 215, 255);
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    background-color: aliceblue;
+}
+hr{
+    border: solid black;
+}
+
+#clockContainer{
+    height: 30vw;
+    width: 30vw;
+    background: url(blueclock.gif) no-repeat;
+    background-size: 100%;
+    margin: auto;
+    position: relative;
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    background-color: rgb(102,204,255);
+    border: 0.5px solid rgba(0, 0, 0, 0.308);
+    border-radius: 15px;
+    transform-origin: bottom;
+}
+
+#hour{
+    width: 2%;
+    height: 22%;
+    top: 27%;
+    left: 48.7%;
+    opacity: 0.9;
+    
+}
+
+#minute{
+    width: 1.5%;
+    height: 35%;
+    top: 13.4%;
+    left: 48.65%;
+    opacity: 0.9;
+    
+}
+
+#second{
+    width: 1%;
+    height: 30%;
+    top: 18.45%;
+    left: 49.25%;
+    opacity: 0.9;
+
+}
