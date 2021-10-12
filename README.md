@@ -28,7 +28,9 @@
 | Krishnapal Rajput                                      | _Web-Developer_|
 | Chris Houston                                          | _Web-Developer, Mobile Apps_ |
 | Sanyam Jain                                          | _MERN-Stack-Developer, Java, Data-Structures-and-Algos_ |
+| Sayak Karar                                          | _Cyber Security, Ethical Hacking, Java, C, C++, Python, DSA, Web Development_ |
 | Shaman Siddique                                        | _Web-Devloper_|
+
 ### Follow the instructions of CONTRIBUTING.md properly.
 
 ## 🎯Objectives
