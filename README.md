@@ -29,6 +29,7 @@
 | Chris Houston                                          | _Web-Developer, Mobile Apps_ |
 | Sanyam Jain                                          | _MERN-Stack-Developer, Java, Data-Structures-and-Algos_ |
 | Sayak Karar                                          | _Cyber Security, Ethical Hacking, Java, C, C++, Python, DSA, Web Development_ |
+| Prerana Singh                                          |  Web Development_, Java, C, C++, Python |
 ### Follow the instructions of CONTRIBUTING.md properly.
 
 ## 🎯Objectives
