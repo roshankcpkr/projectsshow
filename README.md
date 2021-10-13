@@ -29,7 +29,8 @@
 | Chris Houston                                          | _Web-Developer, Mobile Apps_ |
 | Sanyam Jain                                          | _MERN-Stack-Developer, Java, Data-Structures-and-Algos_ |
 | Sayak Karar                                          | _Cyber Security, Ethical Hacking, Java, C, C++, Python, DSA, Web Development_ |
-|Suyash Shingte                                        | _Web-devlopment,Java
+| Adarsh Dubey                                          | _Web-Devloper, HTMl,CSS,JS |
+|Suyash Shingte                                        | _Web-devlopment,Java, HTML, CSS |
 ### Follow the instructions of CONTRIBUTING.md properly.
 
 ## 🎯Objectives
