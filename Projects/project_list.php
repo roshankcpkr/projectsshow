@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php
+$dir = "../Projects"; /*This directory variable may need to be changed depending on how your server is set up.*/
+?>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,13 +34,22 @@
     <main>
          <div class="container">
              <h1> This is open Website </h1>
-             <p> We are creating this website to adding various pages, functions, styles.</p>
+             <p> This is a list of the files and projects currently included in the Projects folder along with links to those files and folders. It uses PHP so that it is automatically updated whenever a new project is added. This is a good addition to a portfolio site because it will always be updated with the newest changes.</p>
              <picture>
             <img src="https://img.caixin.com/2019-12-12/1576147635453631.jpg" alt="image" style="width: 100%; margin-top: 20px; margin-left:auto; margin-right:100px; margin-bottom:20px;
                    max-width: 300px; height: auto;">
           </picture>
-
-
+<ul>
+<?php if (is_dir($dir)){
+  if ($dh = opendir($dir)){
+    while (($file = readdir($dh)) !== false){
+		if (($file == ".") || ($file == "..")) {continue;}
+      echo "<li><a href='" . $file . "'>" . pathinfo($file, PATHINFO_FILENAME) . "</a></li>";
+    }
+    closedir($dh);
+  }
+}?>
+</ul>
     </div>
       
     </main>
