@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Lorem Ipsum</title>
+    <style>
+        .section-center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        body{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #002147;
+            background-color: aliceblue;
+            margin: auto;
+            
+        }
+        h1{
+            letter-spacing: 2px;
+            font-size: 2.5rem;
+        }
+        form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            justify-content:space-evenly;
+        }
+        label{
+            font-size: large;
+            letter-spacing: 3px;
+        }
+        input{
+            border: none;
+            width: 10%;
+            height: 20px;
+            padding: 0.5rem;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 1rem;
+            border-radius: 10px;   
+        }
+        button{
+            border: none;
+            cursor: pointer;
+            background-color: #0047ab;
+            color: aliceblue;
+            padding: .8rem;
+            font-size: 1rem;
+            border-radius: 10px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        div{
+            margin-top: 1rem;
+            opacity: 70%;
+            max-width: 800px;
+        }
+        footer{
+            position:fixed;
+            bottom: 0;
+            padding-top: 1%;
+            text-align: center;
+            background-color: #002147;
+            color: aliceblue;
+            height: 5%;
+            width: 100%;
+            font-size: 1.5rem;
+            letter-spacing: 2px;
+            font-weight: bold;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section-center">
+        <h1>SAY GOODBYE TO THE BORING LOREM IPSUM!</h1>
+        <form class="lorem-form">
+            <label for="paragraph-number">Paragraphs:</label>
+            <input type="number" name="amount" id="amount" placeholder="3" />
+            <button type="submit" class="btn">Generate</button>
+        </form>
+        <br>
+        <div id="output">Ello there mate!</div>
+    </section>
+    <footer>
+        CAN GENERATE ONLY 21 PARAGRAPHS AT ONCE
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
