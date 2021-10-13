@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car-Game</title>
+    
+    <style>
+      body{
+          margin: 0;
+          background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+          overflow-y: hidden;
+     }
+     .back{
+         margin: 8% auto;
+         height: 70vh;
+         width: 70vw;
+        background-image: url("Img_1.png");
+        background-size: 100% 100%;
+        box-shadow: 1px 2px 50px  #888888;
+        overflow-x: hidden;
+        overflow-y: hidden;
+     }
+     .surface{
+         position: relative;
+         top: 72%;
+         background-image: url("Img_02.png"); 
+         height: 20vh;
+         width: 500%;
+         display: block;
+         background-repeat: repeat-x;
+         background-size: auto 100%;
+         animation: moveLeft 6s linear  infinite;
+        
+     }
+     @keyframes moveLeft {
+         /* 0%{
+            transform: translateX(-2950px);
+         } */
+         100%{
+             transform: translateX(-2950px);
+         }
+     }
+     .car{
+         position: relative;
+          top: 40%;
+          left: 10%;
+          animation: moveRight 1s linear infinite;
+     }
+     @keyframes moveRight {
+        
+         100%{
+             transform: translateY(-2px);
+         }
+        
+         50%{
+             transform: translateY(0px);
+         }
+         0%{
+             transform: translateY(-2px);
+         }
+     }
+    </style>
+</head>
+<body>
+    <div class="back">
+        <div class="surface" id="surface">
+            
+        </div>
+        <div class="car" id="car">
+            <img src="Img_06.png" alt="Car" id="light">
+        </div>
+    </div>
+    <audio data-key="104" src="horn.mp3"></audio>
+   
+</body>
+<script type="text/javascript" >
+         var anim=true;
+         var light=true;
+         document.addEventListener("keypress",(event)=>{
+               console.log(event.which);
+               if(event.which==32){
+                   if(anim){
+                 document.getElementById("surface").style.animationPlayState='paused';
+                 document.getElementById("car").style.animationPlayState='paused';
+                  anim=false;
+                }
+                   else{
+                    document.getElementById("surface").style.animationPlayState='running';
+                 document.getElementById("car").style.animationPlayState='running';
+                 anim=true;
+                   }
+                }
+                if(event.which==108){
+                    if(light){
+                   document.getElementById("light").src="Img_05.png";
+                            light=false;   
+                }
+                else{
+                    document.getElementById("light").src="Img_06.png";
+                    light=true;
+                }
+                if(event.which==104){
+                    const audio = document.querySelector(`audio[data-key="${event.which}"]`);
+                    
+                    audio.play();
+                }
+                console.log(event.which);
+            }
+               
+         });
+     
+</script>
+</html>
