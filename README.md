@@ -30,6 +30,7 @@
 | Sanyam Jain                                          | _MERN-Stack-Developer, Java, Data-Structures-and-Algos_ |
 | Sayak Karar                                          | _Cyber Security, Ethical Hacking, Java, C, C++, Python, DSA, Web Development_ |
 | Adarsh Dubey                                          | _Web-Devloper, HTMl,CSS,JS |
+| Adarsh Reddy                                          | _Web-Developer, HTML,CSS,JS|
 ### Follow the instructions of CONTRIBUTING.md properly.
 
 ## 🎯Objectives
