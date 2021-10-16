@@ -32,6 +32,7 @@
 | Sayak Karar       | _Cyber Security, Ethical Hacking, Java, C, C++, Python, DSA, Web Development_ |
 | Adarsh Dubey      | \_Web-Devloper, HTMl,CSS,JS                                                   |
 | _Zainab Fahim_    | _Web-development, Beginner, Python_                                           |
+| _Shaman Siddique_ | _web-devloper_                                                                |
 
 ### Follow the instructions of CONTRIBUTING.md properly.
 
