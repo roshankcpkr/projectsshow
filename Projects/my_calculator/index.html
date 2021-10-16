@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <section class="cal-header">
+        <div class="container">
+            <div class="cal-head-text">
+                <h1>Simple Calculator</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Calculator -->
+<section id="cal">
+    <div class="container">
+        <div class="main-cal">
+            <form name="forms">
+                <input type="text" name="answer" id="text-input">
+                <input type="button" class="clr" value="C" onclick="forms.answer.value = ''"><br><br>
+                <input type="button" value="1" onclick="forms.answer.value += '1'">
+                <input type="button" value="2" onclick="forms.answer.value += '2'">
+                <input type="button" value="3" onclick="forms.answer.value += '3'">
+                <input type="button" value="/" onclick="forms.answer.value += '/'">
+                <br><br>
+                <input type="button" value="4" onclick="forms.answer.value += '4'">
+                <input type="button" value="5" onclick="forms.answer.value += '5'">
+                <input type="button" value="6" onclick="forms.answer.value += '6'">
+                <input type="button" value="x" onclick="forms.answer.value += '*'">
+                <br><br>
+                <input type="button" value="7" onclick="forms.answer.value += '7'">
+                <input type="button" value="8" onclick="forms.answer.value += '8'">
+                <input type="button" value="9" onclick="forms.answer.value += '9'">
+                <input type="button" value="-" onclick="forms.answer.value += '-'">
+                <br><br>
+                <input type="button" value="." onclick="forms.answer.value += '.'">
+                <input type="button" value="0" onclick="forms.answer.value += '0'">
+                <input type="button" value="=" onclick="forms.answer.value = eval(forms.answer.value)">
+                <input type="button" class="plus"value="+" onclick="forms.answer.value += '+'">
+                <br><br>
+                
+                
+
+            </form>
+        
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <div class="container">
+        <h5> &copy;Design By Atanu Mondal </h5>
+    </div>
+    
+</footer>
+</body>
+</html>
