@@ -1,0 +1,28 @@
+@media screen and (max-width: 678px) {
+    .nav-center{
+        display: none;
+    }
+    nav{
+        justify-content: flex-start;
+    }
+    .nav-left{
+        width: 40vw; 
+    }
+    .nav-left img{
+        margin-left: 15px;
+    }
+    .nav-right{
+        margin-left: 50px;
+    }
+    .nav-right ul li{
+        font-size: 22px;
+        margin-left: 12px;
+    }
+    .main-left{
+        width: 90vw;
+    }
+    .main-right{
+        display: none;
+    }
+    
+}
