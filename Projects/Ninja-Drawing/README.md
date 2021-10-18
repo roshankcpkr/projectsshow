@@ -1,0 +1,2 @@
+-All Character sketches, are drawn from scratch, using the JS Library- p5.js
+-Sharing this, so that the Ninja character drawing can be reused for other games
