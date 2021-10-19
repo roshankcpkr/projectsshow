@@ -57,7 +57,7 @@ form {
 .calCol .resultBtn {
     width: 70px;
     height: 70px;
-    color: #fff;
+    color: rgb(20, 19, 19);
     background-color: #fff1;
     display: flex;
     justify-content: center;
