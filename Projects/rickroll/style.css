@@ -1,0 +1,54 @@
+#the{
+    background-image: url('img/blog.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cookie{
+    background-color: rgb(48, 182, 15);
+    color:white;
+    border: 1px solid black;
+    margin-top: 10%;
+    font-size: 20px;
+}
+.okay{
+    color:white;
+    opacity: 0.8;
+    background-color: black;
+    
+    padding: 10px;
+    border-radius: 45px;
+    margin-bottom: 3px;
+    
+
+}
+.okay:hover{
+    opacity: 1.2;
+}
+
+.popup{
+    margin-left: 40%;
+}
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.does{
+    display:none;
+}
