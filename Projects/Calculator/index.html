@@ -1,77 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Day 5</title>
-    <!-- Font Awesome -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-<!-- Google Fonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-<!-- Bootstrap core CSS -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
-<!-- Material Design Bootstrap -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
-</head>
-<body class="bg-info"> 
-   
-    <div class="container shadow py-5 my-5 px-5">
-        <div class="header">
-            <p class="font-weight-bold ">
-               <h1 class="text-center">Easy Calculator</h1>  
-            </p>
-            <br>
-        </div>
-         <div class="card py-5 px-5">
-        <form name="calc">
-            <input type="text"  class="form-control" id="result" placeholder="0">
-            <br>
-            <div class="numbers">
-                <div class="calCol">
-                    <span class="btn" value="7" onclick="dis('7')">7</span>
-                    <span class="btn" value="4" onclick="dis('4')">4</span>
-                    <span class="btn" value="1" onclick="dis('1')">1</span>
-                    <span class="btn" value="+" onclick="dis('+')">+</span>
-                </div>
-                <div class="calCol">
-                    <span class="btn" value="8" onclick="dis('8')">8</span>
-                    <span class="btn" value="5" onclick="dis('5')">5</span>
-                    <span class="btn" value="2" onclick="dis('2')">2</span>
-                    <span class="btn" value="0" onclick="dis('0')">0</span>
-                </div>
-                <div class="calCol">
- 
-                    <span class="btn" value="9" onclick="dis('9')">9</span>
-                    <span class="btn" value="6" onclick="dis('6')">6</span>
-                    <span class="btn" value="3" onclick="dis('3')">3</span>
-                    <span class="btn" value="-" onclick="dis('-')">-</span>
-                </div>
-                <div class="calCol">
-                    <span class="btn" value="=" onclick= "answer()">=</span>
-                    <span class="btn" value="*" onclick="dis('*')">*</span>
-                    <span class="btn" value="/" onclick="dis('/')">/</span>
-                    <span class="btn" value=" " onclick="clear()">C</span>
-                </div>
-            </div>
-        </form>
-    </div>
-</div>
-   
-    <!-- <br>
-    <h3>Made by Nervebody with ❤️</h3> -->
 
-    <!--Linking Javascript-->
-    <script src = "calculator.js" type = "text/javascript"></script>
-    <!-- JQuery -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<!-- Bootstrap tooltips -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-<!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-<!-- MDB core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="simple calculator">
+
+  <meta name="author" content="EL Tai Yahia">
+
+  <title>Calculator</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <input type="text" readonly id="display" name="result">
+
+    <button onclick="cls('')" class="gradientcolor" type="button" name="clean">C</button>
+
+    <button onclick="sign(display.value)" class="graybuttons" type="button" name="plus-mius">&#177;</button>
+
+    <button onclick="show('%')"  id="mod" class="graybuttons" type="button" name="modular">&#37;</button>
+
+    <button onclick="show('/')" id="div" class="graybuttons" type="button" name="divison">&#247;</button>
+
+    <button onclick="show(7)" class="whitecolor" type="button" name="7">7</button>
+
+    <button onclick="show(8)" class="whitecolor" type="button" name="8">8</button>
+
+    <button onclick="show(9)" class="whitecolor" type="button" name="9">9</button>
+
+    <button onclick="show('*')"  id="mul" class="graybuttons" type="button" name="multiplication">&#88;</button>
+
+    <button onclick="show(4)" class="whitecolor" type="button" name="4">4</button>
+
+    <button onclick="show(5)" class="whitecolor" type="button" name="5">5</button>
+
+    <button onclick="show(6)" class="whitecolor" type="button" name="6">6</button>
+
+    <button onclick="show('-')" id="subs" class="graybuttons" type="button" name="substraction">&#8722;</button>
+
+    <button onclick="show(1)" value="1" class="whitecolor" type="button" name="1">1</button>
+
+    <button onclick="show(2)" value="2" class="whitecolor" type="button" name="2">2</button>
+
+    <button onclick="show(3)" value="3" class="whitecolor" type="button" name="3">3</button>
+
+    <button onclick="show('+')" id="add" class="graybuttons" type="button" name="addition">&#43;</button>
+
+    <button onclick="show(0)" class="zero" type="button" name="0">&#48;</button>
+
+    <button  onclick="comma('.')" id="comma" class="graybuttons comma"  type="button" name="comma">&#46;</button>
+
+    <button  onclick="calcul()" id="equal" class="gradientback equal" type="button" name="equal">&#61;</button>
+
+  </div>
+
+  <script src="script.js"></script>
 
 </body>
+
 </html>
