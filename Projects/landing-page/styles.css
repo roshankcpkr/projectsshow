@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
 :root {
   /* primary/main color */
   --clr-primary-5: hsl(205, 78%, 60%);
@@ -27,8 +29,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background: var(--clr-white);
   color: var(--clr-grey-1);
   line-height: 1.5;
@@ -110,8 +111,8 @@ p {
 }
 .btn {
   font-size: 1rem;
-  padding: 0.5rem 0.7rem;
-  border-radius: var(--radius);
+  padding: 0.5rem 3rem;
+  border-radius: 50px;
   border-color: transparent;
   color: white;
   background: var(--clr-black);
@@ -222,6 +223,7 @@ p {
 
   .hero-info h1 {
     font-size: 3rem;
+    color: #fff;
   }
   .hero-info p {
     font-size: 1.25rem;
@@ -229,6 +231,7 @@ p {
   .hero-images {
     display: block;
     justify-self: center;
+    margin-top: 100px;
   }
   .phone-img {
     width: 12rem;
@@ -238,7 +241,7 @@ p {
 @media screen and (min-width: 1200px) {
   .hero-center {
     grid-template-columns: 2fr 1fr;
-    align-items: end;
+    align-items: center;
     padding-bottom: 12vh;
   }
   .hero-info h1 {
