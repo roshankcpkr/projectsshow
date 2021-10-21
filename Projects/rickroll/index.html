@@ -40,6 +40,16 @@
     else{
         myVideo.pause();
     }
+    //auto-full screen
+    if (myVideo.requestFullscreen) {
+        myVideo.requestFullscreen();
+    } 
+    else if (myVideo.webkitRequestFullscreen) { /* Safari */
+        myVideo.webkitRequestFullscreen();
+    } 
+    else if (myVideo.msRequestFullscreen) { /* IE11 */
+        myVideo.msRequestFullscreen();
+    }
    
 }
  </script>
