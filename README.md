@@ -13,6 +13,29 @@
 
 ### You can add your projects in the Projects directory. You can also edit existing files.
 
+| Contributors                                           | Interests              |
+| ------------------------------------------------------ | ---------------------- |
+| _Roshan K.C_                                           | _Programing, blogging, security_|
+| _Agnibha Sarkar_                                       | _Web-development, Flutter, Music_|
+| _smil-thakur_                                          | _flutter, c++, football_|
+| _Prabesh Sapkota_                                      | _CyberSec, Programming, Robotics_|
+| _Planktonzz_                                           | _Cybersecurity, Web-development_|
+| _haaaziq_                                              | _Web-development, Flutter, Cricket_|
+| _Bil Abror_                                            | _Web-development_|
+| gourav chawla                                          | _Frontend web-developer, c++_    |
+| Abhi Tyagi                                             | _web-developer, python, c++_    |
+| _Arizki Putra Rahman_                                  | _web-developer, js, php   |
+| Namrutha Hari                                          | _Web-Developer, Cloud_|
+|Deep Gandhi                                           | Football, Finance, Backend Development|
+| Krishnapal Rajput                                      | _Web-Developer_|
+| Chris Houston                                          | _Web-Developer, Mobile Apps_ |
+
+### You can add your projects in the Projects directory. You can also edit existing files. 
+=======
+=======
+| Sanyam Jain                                          | _MERN-Stack-Developer, Java, Data-Structures-and-Algos_ |
+=======
+
 | Contributors      | Interests                                                                     |
 | ----------------- | ----------------------------------------------------------------------------- |
 | _Roshan K.C_      | _Programing, blogging, security_                                              |
