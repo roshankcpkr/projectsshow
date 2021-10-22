@@ -1,5 +1,5 @@
-## Name: ## Zibras Ismail
-## Github Link: ## https://github.com/ZibrasIsmail
+## Name: Zibras Ismail
+## Github Link: https://github.com/ZibrasIsmail
 
 
 
