@@ -34,6 +34,7 @@
 | _Zainab Fahim_    | _Web-development, Beginner, Python_                                           |
 | _Junaid Javed_    | _Web-Devloper, HTMl,CSS,JS_                                                   |
 | Suyash Shingte    | _Web-Devloper, HTMl,CSS,JS                                                    |
+| Zibras Ismail     | _MERN-Stack-Developer_                                                        |
 
 ### Follow the instructions of CONTRIBUTING.md properly.
 
