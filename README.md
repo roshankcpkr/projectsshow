@@ -33,7 +33,10 @@
 | Adarsh Dubey      | \_Web-Devloper, HTMl,CSS,JS                                                   |
 | _Zainab Fahim_    | _Web-development, Beginner, Python_                                           |
 | _Ahmad Subuhki_    | _Web-development, AI Enthusiast_                                           |
-
+| _Junaid Javed_    | _Web-Devloper, HTMl,CSS,JS_                                                   |
+| Suyash Shingte    | _Web-Devloper, HTMl,CSS,JS                                                    |
+| Zibras Ismail      | _MERN-Stack-Developer_                                                        |
+|Aishwarya Hombalimath|Web Development, AI ,ML ,Datascience                                         |
 ### Follow the instructions of CONTRIBUTING.md properly.
 
 ## 🎯Objectives
