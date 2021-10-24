@@ -35,6 +35,7 @@
 | _Ahmad Subuhki_    | _Web-development, AI Enthusiast_                                           |
 | _Junaid Javed_    | _Web-Devloper, HTMl,CSS,JS_                                                   |
 | Suyash Shingte    | _Web-Devloper, HTMl,CSS,JS                                                    |
+| _Shaman Siddique_ | _web-devloper_                                                                |
 | Zibras Ismail      | _MERN-Stack-Developer_                                                        |
 |Aishwarya Hombalimath|Web Development, AI ,ML ,Datascience                                         |
 ### Follow the instructions of CONTRIBUTING.md properly.
