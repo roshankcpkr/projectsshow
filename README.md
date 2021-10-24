@@ -32,9 +32,13 @@
 | Sayak Karar       | _Cyber Security, Ethical Hacking, Java, C, C++, Python, DSA, Web Development_ |
 | Adarsh Dubey      | \_Web-Devloper, HTMl,CSS,JS                                                   |
 | _Zainab Fahim_    | _Web-development, Beginner, Python_                                           |
+| _Ahmad Subuhki_    | _Web-development, AI Enthusiast_                                           |
 | _Junaid Javed_    | _Web-Devloper, HTMl,CSS,JS_                                                   |
 | Suyash Shingte    | _Web-Devloper, HTMl,CSS,JS                                                    |
-| Vidhya Varshany   |    Blogging, Programming, Decision Making   |
+| _Shaman Siddique_ | _web-devloper_                                                                |
+| Zibras Ismail      | _MERN-Stack-Developer_                                                        |
+|Aishwarya Hombalimath|Web Development, AI ,ML ,Datascience                                         |
+| _Vidhya Varshany_   |    _Blogging, Programming, Decision Making_   |
 ### Follow the instructions of CONTRIBUTING.md properly.
 
 ## 🎯Objectives
