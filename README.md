@@ -34,7 +34,7 @@
 | _Zainab Fahim_    | _Web-development, Beginner, Python_                                           |
 | _Junaid Javed_    | _Web-Devloper, HTMl,CSS,JS_                                                   |
 | Suyash Shingte    | _Web-Devloper, HTMl,CSS,JS                                                    |
-
+|Aishwarya Hombalimath|Web Development, AI ,ML ,Datascience                                         |
 ### Follow the instructions of CONTRIBUTING.md properly.
 
 ## 🎯Objectives
