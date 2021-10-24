@@ -38,6 +38,7 @@
 | _Shaman Siddique_ | _web-devloper_                                                                |
 | Zibras Ismail      | _MERN-Stack-Developer_                                                        |
 |Aishwarya Hombalimath|Web Development, AI ,ML ,Datascience                                         |
+| Mohammad Anang | _Software Engineer_ |
 ### Follow the instructions of CONTRIBUTING.md properly.
 
 ## 🎯Objectives
