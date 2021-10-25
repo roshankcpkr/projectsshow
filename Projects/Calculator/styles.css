@@ -1,111 +1,164 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
-
 * {
-    box-sizing: border-box;
-    font-family: 'Lexend Mega', sans-serif; 
+
+  margin: 0;
+
+  border: 0;
+
+  padding: 0;
+
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color:teal ;
+
+  background: #DCDCDC;
+
 }
 
-.calci {
-    width: 300px;
-    min-height: 400px;
-    backdrop-filter: blur(20px);
-    background-color: #fff1;
-    box-shadow: 20px 20px 50px #00000080;
-    border: 2px solid #fff3;
-    overflow: hidden;
+.container {
+
+  position: relative;
+
+  z-index:100;
+
+  height: 405px;
+
+  width: 235px;
+
+  margin: 50px auto 0 auto;
+
+  border-radius: 5px;
+
+  box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
-input {
+
+#display {
+
+  color: #FFFFFF;
+
+  text-align: center;
+
+  font-size: 20px;
+
+  background: linear-gradient(to top right, rgba(255,0,0,0.7), rgba(255,255,0,0.6));
+
+  border-top-right-radius:6px;
+
+  border-top-left-radius:6px;
+
+  height: 120px;
+
+  width: 235px;
+
+}
+
+button {
+
+  font-weight: bold;
+
+  font-family: Century Gothic, sans-serif;
+
+  font-size: 18px;
+
+  width:58.75px;
+
+  height:57px;
+
+  text-align:center;
+
+  display:inline-block;
+
+  float:left;
+
+  cursor: pointer;
+
+  transition-duration: 0.4s;
+
+}
+
+.graybuttons:hover {
+
+  background-color:#F5F5F5;
+
+}
+
+button:hover {
+
+  background-color: #e7e7e7;
+
+}
+
+.zero{
+
+  width: 117.5px;
+
+  border-bottom-left-radius:6px;
+
+  background:#F5F5F5;
+
+}
+
+.equal {
+
+  border-bottom-right-radius:6px;
+
+}
+
+.whitecolor {
+
+  background:#F5F5F5;
+
+}
+
+.gradientback {
+
+  background: linear-gradient(to top right, rgba(255,0,0,0.7), rgba(255,255,0,0.6));
+
+}
+
+.gradientcolor {
+
+  color:#DB7093;
+
+}
+
+@media (max-width:768px)  {
+
+  .container {
+
     width: 100%;
-    height: 100px;
-    background-color: #fff7;
-    font-size: 2.5em;
-    font-weight: 600;
-    color: #115b94;
-    padding: 0 15px;
-    text-align: right;
-}
 
-input::placeholder {
-    color: #115b94;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-.numbers {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.calCol {
-    display: grid;
-    grid-gap: 5px;
-}
-
-.calCol .btn,
-.calCol .resultBtn {
-    width: 70px;
-    height: 70px;
-    color: rgb(20, 19, 19);
-    background-color: #fff1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-}
-
-.calCol .btn::before,
-.calCol .resultBtn::before {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    width: 100%;
     height: 100%;
-    opacity: 0;
-    background-color: #fff5;
-}
 
-.calCol .resultBtn {
-    height: 145px;
-}
+    position:relative;
 
-.calCol .btn:active:before,
-.calCol .resultBtn:active:before {
-    animation: animate 1s linear;
-}
+    margin: auto;
 
-@keyframes animate {
-    0% {
-        transform: scale(0.6);
-        opacity: 0.6;
-        border-radius: 50%;
-    }
-    100% {
-        transform: scale(4.5);
-        opacity: 1;
-        border-radius: 0;
-    }
-}
+  }
 
-/* h3 {
-    background-color: ;
-    color: rgb(190, 18, 18);
-    text-align: center;
+  #display {
+
+    width: 100%;
+
+    height: 30%;
+
+  }
+
+  button {
+
+    width:25%;
+
+    height: 14%;
+
+  }
+
+  .zero {
+
+    width: 50%;
+
+    height: 14%;
+
+  }
+
+}
     
-} */
