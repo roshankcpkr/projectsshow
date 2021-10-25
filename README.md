@@ -27,6 +27,7 @@
 | Namrutha Hari     | _Web-Developer, Cloud_                                                        |
 | Deep Gandhi       | Football, Finance, Backend Development                                        |
 | Krishnapal Rajput | _Web-Developer_                                                               |
+| Rasha             | _Web Development, Bruteforce_                                                 |
 | Chris Houston     | _Web-Developer, Mobile Apps_                                                  |
 | Sanyam Jain       | _MERN-Stack-Developer, Java, Data-Structures-and-Algos_                       |
 | Sayak Karar       | _Cyber Security, Ethical Hacking, Java, C, C++, Python, DSA, Web Development_ |
