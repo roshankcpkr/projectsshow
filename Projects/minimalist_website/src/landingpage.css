@@ -1,0 +1,69 @@
+.home{
+    background-color: rgb(243, 243, 243);
+}
+
+.board-image{
+    position: relative;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+}
+
+.text{
+    position: absolute;
+    right: 50%;
+    left: 10%;
+    top: 15%;
+    color: black;
+    text-decoration-style: solid;
+    font-weight: 700px;
+    font-size: 60px;
+  }
+
+  p{
+    position: absolute;
+    right: 50%;
+    left: 10%;
+    top: 44%;
+    color: black;
+    text-decoration-style: solid;   
+  }
+
+  .buttons{
+    position: absolute;
+    right: 50%;
+    left: 10%;
+    top: 55%;
+  }
+
+  .cards{
+      position: relative;
+      padding-left: 100px;
+      margin: 100px;
+      color: green;
+     
+  }
+
+  .cards .mb-2{
+    padding-top: 70px;
+    padding-left: 40px;
+    
+  }
+
+  
+  .cards .mb-3{
+    padding-top: 70px;
+    padding-left: 40px;
+    
+  }
+
+  
+  .cards .mb-4{
+    padding-top: 70px;
+    padding-left: 40px;
+    
+    
+  }
+
+

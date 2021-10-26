@@ -1,0 +1,38 @@
+.second-board{
+    background-color: rgb(226, 225, 225);
+    margin: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 100px;
+}
+
+.text-7{
+    position: relative;
+    color: black;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    left: 5%;
+    right: 50%;
+
+}
+
+.upper{
+    margin: 40px;
+    margin-left: 370px;
+}
+
+.lower{
+    margin: 40px;
+    margin-left: 300px;
+}
+
+
+
+
+
+
+
+
+
+
