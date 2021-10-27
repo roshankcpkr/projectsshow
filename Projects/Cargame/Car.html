@@ -5,18 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car-Game</title>
-    
+    <button onclick="changeBackgroundImage()" class="btn">Change Background</button>
     <style>
       body{
           margin: 0;
           background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
           overflow-y: hidden;
      }
+    .button_container {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 30%;
+    }
+    .btn {
+        border: none;
+        display: block;
+        text-align: center;
+        cursor: pointer;
+        text-transform: uppercase;
+        outline: none;
+        overflow: hidden;
+        position: relative;
+        color: #fff;
+        font-weight: 700;
+        font-size: 15px;
+        background-color: #222;
+        padding: 17px 60px;
+        margin: 0 auto;
+        box-shadow: 0 5px 25px rgba(0,0,0,0.40);
+    }
+
+    .btn span {
+        position: relative; 
+        z-index: 1;
+    }
+
+    .btn:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 490%;
+        width: 140%;
+        background: #537895;
+        -webkit-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+        -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+        transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    }
+
+    .btn:hover:after {
+        -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+        transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    }
      .back{
-         margin: 8% auto;
+         margin: 4% auto;
          height: 70vh;
          width: 70vw;
-        background-image: url("Img_1.png");
+        background-image: url("back.png");
         background-size: 100% 100%;
         box-shadow: 1px 2px 50px  #888888;
         overflow-x: hidden;
@@ -110,6 +157,17 @@
             }
                
          });
+        var count=0;
+         function changeBackgroundImage(){
+            arrayOfImages=['Img_1.png','back.png','back2.jpg','img.jpg','night.jpg']
+            document.getElementsByClassName("back")[0].style.backgroundImage = `url(${arrayOfImages[count]})`; 
+            count++;
+            if (count>=arrayOfImages.length){
+                count=0;
+            }
+            
+         }
+
      
 </script>
 </html>
