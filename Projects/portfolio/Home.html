@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Livisha</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css\Home.css">
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Lobster&family=Piedra&family=Suez+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+
+<body>
+
+  <div class="container-fluid">
+    <div>
+      <nav class="navbar navbar-expand-lg bg-darkx navbar dark">
+        <a class="navbar-brand" href="#">Livisha jain</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="navbar-item">
+              <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="#">SKILLS</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="#">PROJECTS</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="#">RESUME</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+
+    <h1 class="heading1">I'am Livisha jain.</h1>
+    <h2 class="heading2">I'm Web Developer.</h2>
+  </div>
+
+
+
+
+
+  <!-- About -->
+  <div id="about">
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">I'm an Undergraduate Sophomore Year Student.<br> Currently undertaking a
+            Bachelors course in Computer Science and Engineering at Swami Keshvanad Institute of Technology.<br> I'm professional web developer.</h2>
+          <img class="testimonial-img" src="images/web.png" alt="dog-profile">
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">I am App developer. </h2>
+          <img class="testimonial-img" src="images/app.png" alt="lady-profile">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+
+
+  <div class="skills">
+<div class="row">
+  <div class="col-lg-6">
+    <h6>I am Expert On</h6>
+    <p class="skill-para">Programming Languages: C++, C, Java(beginner)</p>
+    <p class="skill-para">Scripting Languages: JavaScript, Python</p>
+    <p class="skill-para">Web Technologies: React.js, nodejs, Git, Github, CSS, HTML</p>
+    <p class="skill-para">Operating Systems: Ubuntu, Windows</p>
+  </div>
+  <div class="col-lg-6">
+    <h3>Let's Work Together</h3>
+    <button type="button" name="button">Hire me</button>
+  </div>
+
+</div>
+  </div>
+
+
+
+  <div class="contact">
+    <div class="container bg-light py-3">
+      <form id="contact-form" method="post" action="contact.php" role="form">
+        <div class="messages"></div>
+        <div class="controls">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="form-group">
+                <label for="form_name">Name *</label>
+                <input id="form_name" type="text" name="surname" class="form-control" placeholder="Please enter your name *" required="required" data-error="name is required.">
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="form-group">
+                <label for="form_email">Email *</label>
+                <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="form-group">
+                <label for="form_phone">Phone</label>
+                <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone number">
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <label for="form_message">Message *</label>
+              <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="send a message."></textarea>
+              <div class="help-block with-errors"></div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <input type="submit" class="btn btn-warning btn-send" value="Send message">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="text-muted"><strong>*</strong> These fields are required.</p>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+
+.container-fluid{
+  background-color: #07031a;
+}
+.nav-link:hover{
+    color:#f37121;
+}
+.navbar-brand{
+   font-family: 'Piedra',cursive;
+   font-size: 30px;
+   color:#f4f4f4;
+}
+.nav-link{
+  font-size: 20px;
+  color:white;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.heading1{
+   animation : type 4s;
+   overflow:hidden;
+   white-space:nowrap;
+   font-family:consolas ,'Sriracha', cursive;;
+   width:20ch;
+   color: white;
+   margin: 200px ;
+   font-size: 4rem;
+}
+
+.heading2{
+  animation: type 3s infinite;
+   animation-direction: alternate;
+  color:#d32626;
+  overflow:hidden;
+  white-space:nowrap;
+  font-family:consolas,'Sriracha', cursive;;
+  border-right:4px solid;
+  width:18ch;
+  font-size: 4rem;
+
+}
+
+@keyframes type{
+    0% {
+        width:0ch;
+    }
+
+    100% {
+        width:18ch;
+    }
+}
+
+
+#about{
+background-color: #07031a;
+  text-align: center;
+  color: #fff;
+}
+.testimonial-text{
+  font-size: 2rem;
+  line-height: 2;
+}
+.testimonial-img {
+  width: 40%;
+  border-radius: 100%;
+  margin: 25px;
+}
+
+
+
+.skills{
+  background-color: #07031a;
+}
+
+.col-lg-6 {
+  padding: 4.5rem;
+}
+.skill-para{
+  background-color: #d32626;
+  animation : type 3s;
+  overflow:hidden;
+  white-space:nowrap;
+  font-family:consolas ,'Sriracha', cursive;
+  color:#07031a;
+
+}
+
+h6{
+  color:white;
+}
+
+
+
+
+
+
+.contact{
+    background-color: #07031a;
+    color: white;
+
+}
