@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap");
+header {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
+header .copy {
+  font-size: 12px;
+  color: gray;
+}
+
+body {
+  background-color: #99b7b9;
+}
+
+.container {
+  margin: 0 auto;
+  background-color: bisque;
+  width: 500px;
+  height: 500px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  -ms-grid-rows: (1fr)[5];
+      grid-template-rows: repeat(5, 1fr);
+  row-gap: 10px;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  background: none;
+}
+
+.container .screen {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 6;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 1;
+  background-color: #442d2d3b;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: wheat;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.container .number {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 4;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 6;
+  background-color: pink;
+  border-radius: 15px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[4];
+      grid-template-rows: repeat(4, 1fr);
+  row-gap: 10px;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+.container .number .digit {
+  background-color: #83a299;
+  border-radius: 20px;
+  margin: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Orbitron', sans-serif;
+  color: wheat;
+  font-size: 30px;
+  cursor: pointer;
+  box-shadow: 24px 29px 27px -24px rgba(133, 131, 121, 0.79);
+  -webkit-box-shadow: 24px 29px 27px -24px rgba(133, 131, 121, 0.79);
+  -moz-box-shadow: 24px 29px 27px -24px rgba(133, 131, 121, 0.79);
+}
+
+.container .number .digit:hover {
+  color: yellow;
+  opacity: 50%;
+  box-shadow: 1px 16px 35px -10px rgba(189, 159, 23, 0.79);
+  -webkit-box-shadow: 1px 16px 35px -10px rgba(189, 159, 23, 0.79);
+  -moz-box-shadow: 1px 16px 35px -10px rgba(189, 159, 23, 0.79);
+  font-size: 40px;
+}
+
+.container .operator {
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-column-end: 6;
+  -ms-grid-row: 3;
+      grid-row-start: 3;
+  grid-row-end: 6;
+  background-color: #79ebeffc;
+  border-radius: 15px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (1fr)[3];
+      grid-template-rows: repeat(3, 1fr);
+  row-gap: 10px;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+.container .operator .operChild {
+  background-color: #83a299;
+  border-radius: 20px;
+  margin: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Orbitron', sans-serif;
+  color: wheat;
+  font-size: 30px;
+  cursor: pointer;
+  box-shadow: 24px 29px 27px -24px rgba(133, 131, 121, 0.79);
+  -webkit-box-shadow: 24px 29px 27px -24px rgba(133, 131, 121, 0.79);
+  -moz-box-shadow: 24px 29px 27px -24px rgba(133, 131, 121, 0.79);
+}
+
+.container .operator .operChild:hover {
+  color: yellow;
+  opacity: 50%;
+  box-shadow: 1px 16px 35px -10px rgba(189, 159, 23, 0.79);
+  -webkit-box-shadow: 1px 16px 35px -10px rgba(189, 159, 23, 0.79);
+  -moz-box-shadow: 1px 16px 35px -10px rgba(189, 159, 23, 0.79);
+  font-size: 40px;
+}
+
+.container .operator .plus {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 2;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 4;
+  background-color: #83a299;
+  border-radius: 15px;
+}
+
+.container .operator .equal {
+  background-color: #cc7135;
+}
+
+.container .clear {
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-column-end: 6;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: #ffffffbd;
+  border-radius: 15px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (1fr)[1];
+      grid-template-rows: repeat(1, 1fr);
+  row-gap: 10px;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+.container .clear .clearChild {
+  background-color: #83a299;
+  border-radius: 20px;
+  margin: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Orbitron', sans-serif;
+  color: wheat;
+  font-size: 30px;
+  cursor: pointer;
+  box-shadow: 24px 29px 27px -24px rgba(133, 131, 121, 0.79);
+  -webkit-box-shadow: 24px 29px 27px -24px rgba(133, 131, 121, 0.79);
+  -moz-box-shadow: 24px 29px 27px -24px rgba(133, 131, 121, 0.79);
+}
+
+.container .clear .clearChild:hover {
+  color: yellow;
+  opacity: 50%;
+  box-shadow: 1px 16px 35px -10px rgba(189, 159, 23, 0.79);
+  -webkit-box-shadow: 1px 16px 35px -10px rgba(189, 159, 23, 0.79);
+  -moz-box-shadow: 1px 16px 35px -10px rgba(189, 159, 23, 0.79);
+  font-size: 40px;
+}
+/*# sourceMappingURL=main.css.map */

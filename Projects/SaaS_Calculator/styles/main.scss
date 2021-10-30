@@ -1,0 +1,49 @@
+@import "./function";
+@import "./variables";
+@import "./header";
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+body{
+    background-color:  #99b7b9;
+}
+.container{
+    margin: $center;
+    background-color: bisque;
+    width: 500px;
+    height: 500px;
+    @include display_grid(5,1fr,5,1fr);
+    background: none;
+    .screen{
+        @include grid_child(1,6 ,1 ,1 ,#442d2d3b );
+        @include style_screen;
+    }
+    .number{
+        @include grid_child(1,4 ,2 ,6,pink );
+        @include display_grid(3, 1fr,4 ,1fr );
+        .digit{
+            @include equal_size_element_grid();
+            @include style_digit(wheat); 
+        }
+    }
+    .operator{
+        @include grid_child(4,6 ,3 ,6 ,#79ebeffc );
+        @include display_grid(2, 1fr,3 ,1fr );
+        .operChild{
+            @include equal_size_element_grid();
+            @include style_digit(wheat);  
+        }
+        .plus{
+            @include grid_child(2,2 ,2 ,4,#83a299 )
+        }
+        .equal{
+            background-color: #cc7135;
+        }
+    }
+    .clear{
+        @include grid_child(4,6 ,2,3, #ffffffbd);
+        @include display_grid(2, 1fr,1 ,1fr );
+        .clearChild{
+            @include equal_size_element_grid();
+            @include style_digit(wheat);
+        }
+    }
+}
