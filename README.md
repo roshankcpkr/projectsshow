@@ -39,6 +39,7 @@
 | Zibras Ismail     | _MERN-Stack-Developer_                                                        |
 |Aishwarya Hombalimath|Web Development, AI ,ML ,Datascience                                         |
 | Gourav            |  full stack development                                                       |
+| Luqman Bello      |  Design, Front-End Development, AI                                            |
 ### Follow the instructions of CONTRIBUTING.md properly.
 
 ## 🎯Objectives
