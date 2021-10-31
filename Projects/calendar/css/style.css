@@ -13,9 +13,19 @@ body {
   background: #051320;
 }
 
+.month-name:hover{
+  color: antiquewhite;
+}
+
 .calendar {
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.8s;
+
   position: relative;
   width: 260px;
+}
+.calendar:hover{
+  transform: scale(1.4);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.8s;
 }
 
 .calendar::before {

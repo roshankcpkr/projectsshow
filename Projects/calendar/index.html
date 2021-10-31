@@ -12,6 +12,8 @@
     <div class="calendar">
         <div class="calendar-body">
             <span class="month-name">Month</span>
+            <input type="date" id="date">
+            <button onclick="change()">Change Date</button>
             <span class="day-name">Day</span>
             <span class="date-number">00</span>
             <span class="year">0000</span>
@@ -28,6 +30,23 @@
         document.querySelector('.day-name').innerHTML = dayName;
         document.querySelector('.date-number').innerHTML = dayNumber;
         document.querySelector('.year').innerHTML = year;
+        function fun(){
+            var date_display=document.getElementById('date').valueAsDate = new Date();
+        }
+        fun();
+        function change(){
+            var date_input=document.getElementById('date').value;
+            const dayNumber = new Date(date_input).getDate();
+            const year = new Date(date_input).getFullYear();
+            const dayName = new Date(date_input).toLocaleDateString('default', { weekday: 'long' })
+            const monthName = new Date(date_input).toLocaleDateString('default', { month: 'long' })
+            document.querySelector('.month-name').innerHTML = monthName;
+            document.querySelector('.day-name').innerHTML = dayName;
+            document.querySelector('.date-number').innerHTML = dayNumber;
+            document.querySelector('.year').innerHTML = year;
+
+        }
+        
     </script>
 </body>
 
