@@ -8,7 +8,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
-    <canvas id="painting"></canvas>
+    <canvas width="500" height="500" id="painting"></canvas>
+    <div class="buttonColor">
+        <button class="button" id="green" onclick="selectColor(this)">Green</button>
+        <button class="button" id="blue" onclick="selectColor(this)">Blue</button>
+        <button class="button" id="red" onclick="selectColor(this)">Red</button>
+        <button class="button" id="gray" onclick="selectColor(this)">Gray</button>
+        <button class="button active" id="black" onclick="selectColor(this)">Black</button>
+    </div>
     <script src="./start.js"></script>
 </body>
 </html>
