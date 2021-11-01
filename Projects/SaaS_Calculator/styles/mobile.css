@@ -1,0 +1,20 @@
+header{
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.container{
+    height: 350px;
+    width: 250px;
+}
+.container .number{
+    gap: 0px;
+    row-gap: 10px;
+}
+.container .number .digit{
+    margin: 5px;
+    font-size: 20px;
+}
+.container .clear .clearChild,.container .screen{
+    font-size: 20px;
+}
