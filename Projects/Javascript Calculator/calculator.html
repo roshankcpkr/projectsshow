@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+
+</head>
+<body>
+    
+<h1>Calculator</h1>
+<div class="container">
+        <input type="text" id="out" name="out">
+        <br>
+        <div class="buttons">
+            <input type="button" value="1" name="1" onclick="outputOnScreen(value)">
+            <input type="button" value="2" name="2" onclick="outputOnScreen(value)">
+            <input type="button" value="3" name="3" onclick="outputOnScreen(value)">
+            <input type="button" value="+" name="+" onclick="outputOnScreen(value)">
+        </div>
+        <br><br>
+        <div class="buttons">
+            <input type="button" value="4" name="4" onclick="outputOnScreen(value)">
+            <input type="button" value="5" name="5" onclick="outputOnScreen(value)">
+            <input type="button" value="6" name="6" onclick="outputOnScreen(value)">
+            <input type="button" value="-" name="-" onclick="outputOnScreen(value)">
+        </div>
+        <br><br>
+        <div class="buttons">
+            <input type="button" value="7" name="7" onclick="outputOnScreen(value)">
+            <input type="button" value="8" name="8" onclick="outputOnScreen(value)">
+            <input type="button" value="9" name="9" onclick="outputOnScreen(value)">
+            <input type="button" value="*" name="*" onclick="outputOnScreen(value)">
+        </div>
+        <br><br>
+        <div class="buttons">
+            <input type="button" value="/" name="/" onclick="outputOnScreen(value)">
+            <input type="button" value="0" name="0" onclick="outputOnScreen(value)">
+            <input type="button" value="." name="." onclick="outputOnScreen(value)">
+            <input type="button"id="equalTo" value="=" name="=" onclick="solveExp(value)">
+        </div>    
+        <br><br>
+        <div class="buttons">
+            <input type="button" class="cls-1" value="Clear All" onclick="clearAll(value)">
+            <input type="button" class="cls-2" value="&#8592" onclick="backSpace(value)">
+        </div>    
+</div>
+
+<script>
+    var sum;
+    function outputOnScreen(val) {
+         document.getElementById("out").value+=val;    
+    }
+    function solveExp() {
+        var exp = document.getElementById("out").value;  
+        var answer = eval(exp);
+        clearAll();
+        if(typeof(answer)=="undefined") {
+            document.getElementById("out").value="Enter Value";  
+           setTimeout(clearAll,600);
+        } 
+        else {
+            document.getElementById("out").value=answer;  
+        }
+    }
+    function backSpace() {
+        var backspaceFrom = document.getElementById("out").value;
+        backspaceFrom.length;
+        backspaceFrom = backspaceFrom.substring(0,backspaceFrom.length-1); 
+        document.getElementById("out").value=backspaceFrom;  
+    }
+    function clearAll() {
+        document.getElementById("out").value=""; 
+    }
+</script>
+
+</body>
+</html>
