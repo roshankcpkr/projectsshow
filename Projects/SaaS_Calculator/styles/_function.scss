@@ -1,0 +1,60 @@
+@mixin flexing(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin grid_child($one ,$two, $three, $four, $color)
+{
+    grid-column-start: $one;
+    grid-column-end: $two;
+    grid-row-start: $three;
+    grid-row-end: $four;
+    background-color:$color;
+    border-radius: 15px;
+}
+
+@mixin display_grid($number_col,$unit_col,$number_row,$unit_row)
+{
+    display: grid;
+    grid-template-columns: repeat($number_col,$unit_col);
+    grid-template-rows: repeat($number_row,$unit_row);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+@mixin equal_size_element_grid { 
+    background-color: #83a299;
+    border-radius: 20px;
+}
+
+@mixin style_digit($col){
+    margin: 7px;
+    @include flexing();
+    font-family: 'Orbitron', sans-serif;
+    color: $col;
+    font-size: 30px;
+    cursor: pointer;
+    box-shadow: 24px 29px 27px -24px rgba(133,131,121,0.79);
+    -webkit-box-shadow: 24px 29px 27px -24px rgba(133,131,121,0.79);
+    -moz-box-shadow: 24px 29px 27px -24px rgba(133,131,121,0.79);
+    &:hover {
+        color:yellow;
+        opacity: 50%;
+        box-shadow: 1px 16px 35px -10px rgba(189,159,23,0.79);
+        -webkit-box-shadow: 1px 16px 35px -10px rgba(189,159,23,0.79);
+        -moz-box-shadow: 1px 16px 35px -10px rgba(189,159,23,0.79);
+        font-size: 40px;
+    }
+
+}
+
+@mixin style_screen
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: wheat;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    padding: 10px;
+}

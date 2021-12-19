@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Menu</title>
+    <meta content="Dessert House" name="description">
+    <meta content="desserts,mumbai,restaurant" name="keywords">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+
+    <script>function hideFunction(){
+      var smoothieDiv=document.getElementById("smoothie");
+      var cakeDiv=document.getElementById("cake");
+      var dessertDiv=document.getElementById("dessert");
+      smoothieDiv.style.display = "none"; 
+      cakeDiv.style.display = "none"; 
+      dessertDiv.style.display = "none"; 
+    }
+    function showAll(){
+      var smoothieDiv=document.getElementById("smoothie");
+      var cakeDiv=document.getElementById("cake");
+      var dessertDiv=document.getElementById("dessert");
+      smoothieDiv.style.display = "block"; 
+      cakeDiv.style.display = "block"; 
+      dessertDiv.style.display = "block"; 
+    }
+    function showSmoothie(){
+      hideFunction();
+      var smoothieDiv=document.getElementById("smoothie");
+      smoothieDiv.style.display = "block";
+    }
+    function showCake(){
+      hideFunction();
+      var cakeDiv=document.getElementById("cake");
+      cakeDiv.style.display = "block"; ; 
+    }
+    function showDessert(){
+      hideFunction();
+      var dessertDiv=document.getElementById("dessert");
+      dessertDiv.style.display = "block";
+    }
+    </script>
+  </head>
+  <body>
+    <header id="header" class="fixed-top d-flex align-items-center ">
+      <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+        <div class="logo me-auto">
+          <h1><a href="../index.html">Dessert House</a></h1>
+        </div>
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./book.html">Reservation</a></li>
+            <li><a  href="./about-us.html">About</a></li>
+            <li><a class="active" href="#"  onClick="alert('You are on the menu page already!');">Menu</a></li>
+            <li><a href="./events.html">Events</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+      </div>
+    </header>
+    <section class="breadcrumbs">
+      <div class="container">
+        <h2>Menu</h2>
+      </div>
+    </section>
+    <section class="menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="menu-flters">
+              <li onclick=showAll()>Show All</li>
+              <li onclick=showSmoothie()>Smoothies</li>
+              <li onclick=showCake()>Cakes</li>
+              <li onclick=showDessert()>Desserts</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <div class="row menu-container">
+            <div id="smoothie">
+              <div class="col-lg-12 menu-item">
+                <div class="menu-content">
+                  <p>Chocolate Smoothie</p><span>₹150</span>
+                </div>
+                <div class="menu-ingredients">
+                  Our classic chocolate smoothie
+                </div>
+              </div>
+              <div class="col-lg-12 menu-item">
+                <div class="menu-content">
+                  <p>Vanilla Smoothie</p><span>₹150</span>
+                </div>
+                <div class="menu-ingredients">
+                  Our classic vanilla smoothie
+                </div>
+              </div>
+              <div class="col-lg-12 menu-item">
+                <div class="menu-content">
+                  <p>Smoothie Mix</p><span>₹200</span>
+                </div>
+                <div class="menu-ingredients">
+                  A unique blend of the chocolate and vanilla smoothie
+                </div>
+              </div>
+            </div>          
+            <div id="cake">
+              <div class="col-lg-12 menu-item">
+                <div class="menu-content">
+                  <p>Chocolate Mousse Cake</p><span>₹450</span>
+                </div>
+                <div class="menu-ingredients">
+                  Chocolate cake with a gooey mousse inside
+                </div>
+              </div>
+              <div class="col-lg-12 menu-item">
+                <div class="menu-content">
+                  <p>Black Forest Cake</p><span>₹550</span>
+                </div>
+                <div class="menu-ingredients">
+                  Classic Black Forest Cake
+                </div>
+              </div>
+              <div class="col-lg-12 menu-item">
+                <div class="menu-content">
+                  <p>Ice Cream Cake</p><span>₹600</span>
+                </div>
+                <div class="menu-ingredients">
+                  A unique cake made out of icecream
+                </div>
+              </div>
+            </div>
+            <div id="dessert">
+              <div class="col-lg-12 menu-item">
+                <div class="menu-content">
+                  <p>Chocolate Fondue</p><span>₹650</span>
+                </div>
+                <div class="menu-ingredients">
+                  Dip marshmallows, sponge cake in thick chocolate sauce
+                </div>
+              </div>
+              <div class="col-lg-12 menu-item">
+                <div class="menu-content">
+                  <p>Macarons</p><span>₹750</span>
+                </div>
+                <div class="menu-ingredients">
+                  12 pack assorted macarons
+                </div>
+              </div>
+              <div class="col-lg-12 menu-item">
+                <div class="menu-content">
+                  <p>Lava Muffin</p><span>₹800</span>
+                </div>
+                <div class="menu-ingredients">
+                  Delicious large chocolate muffin with filling
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    </section>
+      <footer id="footer">
+        <div class="container">
+          <h3>Dessert House</h3>
+          <div class="social-links">
+            <a href="https://twitter.com/"><i class="bx bxl-twitter"></i></a>
+            <a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a>
+          </div>
+            Designed by Malhar Bangdiwala
+        </div>
+      </footer>
+      <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+      <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="../assets/js/main.js"></script>    
+  </body>
+</html>
