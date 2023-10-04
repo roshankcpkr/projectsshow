@@ -41,6 +41,9 @@
 | Mohammad Anang | _Software Engineer_ |
 | Gourav            |  full stack development                                                       |
 | Hafiz Abdulmanan  |  full stack development                                                       |
+|Ujjwal Tarika      | front end, full stack                                              
+web_development                                                   |
+
 ### Follow the instructions of CONTRIBUTING.md properly.
 
 ## 🎯Objectives
