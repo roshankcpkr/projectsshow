@@ -41,6 +41,7 @@
 | Mohammad Anang | _Software Engineer_ |
 | Gourav            |  full stack development                                                       |
 | Hafiz Abdulmanan  |  full stack development                                                       |
+| Imran Nazir       |  full stack development                                                       |
 ### Follow the instructions of CONTRIBUTING.md properly.
 
 ## 🎯Objectives
