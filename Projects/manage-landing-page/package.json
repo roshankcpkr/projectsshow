@@ -1,0 +1,21 @@
+{
+  "name": "manage",
+  "version": "1.0.0",
+  "description": "A frontend-mentor challenge using Tailwind",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/main.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/main.css --watch"
+  },
+  "keywords": [
+    "Tailwind",
+    "Frontend",
+    "Frontend-mentor",
+    "landing-page"
+  ],
+  "author": "Syed-Umair-Ali",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}

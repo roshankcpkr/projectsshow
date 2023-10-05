@@ -42,6 +42,7 @@
 | Gourav            |  full stack development                                                       |
 | Hafiz Abdulmanan  |  full stack development                                                       |
 | Imran Nazir       |  full stack development                                                       |
+| Syed Umair Ali    | full stack development, AI, Data Science, and Cybersecurity                   |
 ### Follow the instructions of CONTRIBUTING.md properly.
 
 ## 🎯Objectives

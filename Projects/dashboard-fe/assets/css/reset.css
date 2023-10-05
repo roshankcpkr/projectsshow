@@ -1,0 +1,39 @@
+/* Variables */
+
+:root {
+  --primary-color: #2667ff;
+  --accent-color: #87bfff;
+
+  --background-color: #edede9;
+  --card-color: #ffffff;
+
+  --text-color: #023047;
+
+  --length-md1: 1rem;
+  --length-md2: 1.25rem;
+  --length-md3: 1.5rem;
+}
+
+/* Reset */
+
+body {
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  background: var(--background-color);
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  line-height: 1;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
