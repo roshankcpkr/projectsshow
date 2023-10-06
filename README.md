@@ -41,6 +41,7 @@
 | Mohammad Anang | _Software Engineer_ |
 | Gourav            |  full stack development                                                       |
 | Hafiz Abdulmanan  |  full stack development                                                       |
+| Siddhartha        |  Next.js 13 Developer                                                         |
 <<<<<<< HEAD
 |Ujjwal Tarika      | front end, full stack                                              
 web_development                                                   |
