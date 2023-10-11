@@ -42,6 +42,7 @@
 | Gourav            |  full stack development                                                       |
 | Hafiz Abdulmanan  |  full stack development                                                       |
 | Siddhartha        |  Next.js 13 Developer                                                         |
+| Yuvraj            |  Web and App devlopment, Game development, AR/VR                              |
 <<<<<<< HEAD
 |Ujjwal Tarika      | front end, full stack                                              
 web_development                                                   |
