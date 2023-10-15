@@ -1,4 +1,4 @@
-## Show your projects here
+# Show your projects here
 
 <p align="justify">This repository has many projects and issues. You shall first fork the repository and fix the issue and commit changes. After that create pull request. Contribute your codes in projects directory</p>
 <p align ="justify">Show your HTML, CSS and JS skills now. Upload your projects in the projects directory.</p>
