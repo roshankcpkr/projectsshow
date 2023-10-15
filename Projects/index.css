@@ -1,0 +1,52 @@
+
+        /* Basic styling for the pricing card */
+        .pricing-card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        /* Styling for the pricing title */
+        .pricing-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        /* Styling for the price amount */
+        .price-amount {
+            font-size: 36px;
+            font-weight: bold;
+            color: #007BFF;
+        }
+
+        /* Styling for the features list */
+        .features-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        /* Styling for individual features */
+        .feature-item {
+            margin: 10px 0;
+        }
+
+        /* Styling for the "Get Started" button */
+        .btn-get-started {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /* Hover effect for the button */
+        .btn-get-started:hover {
+            background-color: #0056b3;
+        }
+  
