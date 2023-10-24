@@ -1,0 +1,16 @@
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+body {
+font-family: 'Courier New', Courier, monospace;
+}
