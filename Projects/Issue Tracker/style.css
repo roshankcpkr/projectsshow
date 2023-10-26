@@ -1,0 +1,70 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 10px 10px ;
+    padding: 0px 20px 20px 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Set a background color and font for the entire page */
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('Images/Picture1.webp');
+    background-size: cover; /* Adjust this to control the image size */
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header */
+  h1 {
+    text-align: center;
+    background-color: #d82f2f;
+    color: #a1d97b;
+    padding: 20px 0;
+  }
+  
+  /* Style the issue form container */
+  .issue-form {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #c85151db;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the input field and button in the issue form */
+  #issue-input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #f9bfbf;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 15px 10px 20px;
+    background-color: #333333c6;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
+  /* Add some margin to the issue list container */
+  .issues-list {
+    margin: 20px;
+  }
+  
+  /* Style individual issue cards (you can customize further) */
+  .issue-card {
+    background-color: #fff;
+    border: 1px solid #5a2929;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* You can add more styles based on your specific needs */
+  

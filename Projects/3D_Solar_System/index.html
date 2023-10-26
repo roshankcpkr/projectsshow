@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>3D Solar System using HTML CSS and JavaScript</title>
+</head>
+<body>
+    <div class="opening hide-UI view-2D zoom-large data-close controls-close">
+        <div id="navbar">
+            <a id="toggle-data" href="#data"><i class="icon-data"></i>Data</a>
+            <h1>3D Solar System<br><span>by <a href="https://twitter.com/JulianGarnier" target="_blank" rel="noopener">@JulianGarnier</a></span></h1>
+            <a id="toggle-controls" href="#controls"><i class="icon-controls"></i>Controls</a>
+        </div>
+        <div id="data">
+            <a class="sun" title="Sun" href="#sunspeed">Sun</a>
+            <a class="mercury" title="Mercury" href="#mercuryspeed">Mercury</a>
+            <a class="venus" title="Venus" href="#venusspeed">Venus</a>
+            <a class="earth active" title="Earth" href="#earthspeed">Earth</a>
+            <a class="mars" title="Mars" href="#marsspeed">Mars</a>
+            <a class="jupiter" title="Jupiter" href="#jupiterspeed">Jupiter</a>
+            <a class="saturn" title="Saturn" href="#saturnspeed">Saturn</a>
+            <a class="uranus" title="Uranus" href="#uranusspeed">Uranus</a>
+            <a class="neptune" title="Neptune" href="#neptunespeed">Neptune</a>
+        </div>
+        <div id="controls">
+            <label class="set-view">
+                <input type="checkbox" id="view-checkbox">
+                View
+            </label>
+            <label class="set-zoom">
+                <input type="checkbox" id="zoom-checkbox">
+                Zoom
+            </label>
+            <label>
+                <input type="radio" class="set-speed" name="scale" id="speed-radio" checked>
+                <span>Speed</span>
+            </label>
+            <label>
+                <input type="radio" class="set-size" name="scale" id="size-radio">
+                <span>Size</span>
+            </label>
+            <label>
+                <input type="radio" class="set-distance" name="scale" id="distance-radio">
+                <span>Distance</span>
+            </label>
+        </div>
+        <div id="universe" class="scale-stretched">
+            <div id="galaxy">
+                <div id="solar-system" class="earth">
+                    <div id="mercury" class="orbit">
+                        <div class="pos">
+                            <div class="planet">
+                                <dl class="infos">
+                                    <dt>Mercury</dt>
+                                    <dd><span></span></dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="venus" class="orbit">
+                        <div class="pos">
+                            <div class="planet">
+                                <dl class="infos">
+                                    <dt>Venus</dt>
+                                    <dd><span></span></dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="earth" class "orbit">
+                        <div class="pos">
+                            <div class="orbit">
+                                <div class="pos">
+                                    <div class="moon"></div>
+                                </div>
+                            </div>
+                            <div class="planet">
+                                <dl class="infos">
+                                    <dt>Earth</dt>
+                                    <dd><span></span></dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="mars" class="orbit">
+                        <div class="pos">
+                            <div class="planet">
+                                <dl class="infos">
+                                    <dt>Mars</dt>
+                                    <dd><span></span></dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="jupiter" class="orbit">
+                        <div class="pos">
+                            <div class="planet">
+                                <dl class="infos">
+                                    <dt>Jupiter</dt>
+                                    <dd><span></span></dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="saturn" class="orbit">
+                        <div class="pos">
+                            <div class="planet">
+                                <div class="ring"></div>
+                                <dl class="infos">
+                                    <dt>Saturn</dt>
+                                    <dd><span></span></dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="uranus" class="orbit">
+                        <div class="pos">
+                            <div class="planet">
+                                <dl class="infos">
+                                    <dt>Uranus</dt>
+                                    <dd><span></span></dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="neptune" class="orbit">
+                        <div class="pos">
+                            <div class="planet">
+                                <dl class="infos">
+                                    <dt>Neptune</dt>
+                                    <dd><span></span></dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="sun">
+                        <dl class="infos">
+                            <dt>Sun</dt>
+                            <dd><span></span

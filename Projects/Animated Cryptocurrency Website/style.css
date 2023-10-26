@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0f002b;
+    color: white;
+}
+
+.text{
+    padding-left: 100px;
+    padding-top: 200px;
+}
+
+.text h1{
+    font-size: 80px;
+    line-height: 1.2;
+}
+
+.text h1 span{
+    color: #FF9803;
+}
+
+.text p{
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+#explore{
+    padding: 10px 25px;
+    outline: 0;
+    border: 0;
+    background: #FF9803;
+    border-radius: 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+}
+
+#logo{
+    position: absolute;
+    width: 50px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.navbar{
+    width: 400px;
+    position: absolute;
+    top: 10px;
+    left: 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.navbar p{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#language{
+    padding: 5px 35px;
+    border-radius: 20px;
+    outline: 0;
+    border: 1px solid white;
+    background: transparent;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 25px;
+    right: 100px;
+}
+
+.crypto-box{
+    position: relative;
+    right: 115px;
+    top: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.crypto-box div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.crypto-box div img{
+    width: 45px;
+}
+
+.crypto-box div p{
+    margin-left: 10px;
+    text-align: center;
+}
+
+#coinname{
+    color: #FF9803;
+}
+
+.crypto-box div p span:nth-child(1){
+    font-size: 18px;
+}
+
+#anim{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.9;
+    width: 640px;
+    top: 135px;
+    left: 575px;
+    animation: bob 4.5s linear infinite;
+}
+
+@keyframes bob{
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(6px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    75%{
+        transform: translateY(-6px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+
+}

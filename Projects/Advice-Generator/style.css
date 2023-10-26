@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+body{
+   background:  hsl(218, 23%, 16%); 
+}
+.container{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.line{
+    width: 80%;
+}
+.card{
+    display: flex;
+    background-color: hsl(217, 19%, 24%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding: 1em;
+    width: 100%;
+    color: hsl(150, 100%, 66%);
+    height: 450px;
+    width: 355px;
+    border-radius: 20px;
+}
+
+.justify-center{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.advice{
+    letter-spacing: 5px;
+    font-weight: 800;
+}
+
+#advice-text{
+    font-size: 28px;
+    font-weight: 800;
+    padding: 10%;
+    color:hsl(193, 38%, 86%);
+}
+
+.btn{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    margin-top: -30px;
+    background-color:  hsl(150, 100%, 66%);
+}
+
+.btn:hover{
+    box-shadow: 0 0 20px 5px hsl(150, 100%, 66%);
+}
+
+.btn img{
+    width: 40%;
+    
+}
+
+@media screen and (min-width:720px){
+    .card{
+        width: 80%;
+        max-width: 750px ;
+    }
+}
