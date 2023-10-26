@@ -44,15 +44,9 @@
 | Siddhartha            | Next.js 13 Developer                                                          |
 | Yuvraj                | Web and App devlopment, Game development, AR/VR                               |
 | Eniola Ademla         | Web development, Data analysis and Machine learning                           |
-
-<<<<<<< HEAD
-|Ujjwal Tarika | front end, full stack  
-web_development |
-
-=======
+|Ujjwal Tarika | front end, full stack,web_development |
 | Imran Nazir | full stack development |
-
-> > > > > > > 7f83dcd5a7e61df3914ee5cdee5e0b3be84db6c6
+| Nischal Lamichhane | Django Master, React king |
 
 ### Follow the instructions of CONTRIBUTING.md properly.
 
