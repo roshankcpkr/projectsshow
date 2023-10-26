@@ -1,0 +1,71 @@
+.current-weather-card {
+  width: 300px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  color: #1e90ff;
+  background-color: #ffffff;
+  margin: 20px auto 0 auto;
+  padding: 0 20px 20px 20px;
+}
+
+.card-top,
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.city-name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.city-weather {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.city-temperature {
+  font-weight: 600;
+  font-size: 70px;
+  width: auto;
+  letter-spacing: normal;
+  margin: 10px 0;
+}
+
+.weather-icon {
+  width: 100px;
+}
+
+.temperature-detail {
+  width: 100%;
+  padding-left: 20px;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail-heading {
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.detail-label {
+  text-align: left;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.detail-value {
+  text-align: right;
+  font-weight: 600;
+  font-size: 12px;
+}

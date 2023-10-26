@@ -1,0 +1,107 @@
+/* Card Headline */
+
+.card-headline-icon {
+  display: grid;
+  place-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  color: var(--primary-color);
+  font-size: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.card-headline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-headline1 {
+  grid-area: headline1;
+}
+
+.card-headline2 {
+  grid-area: headline2;
+}
+
+/* Card List */
+
+.card-list {
+  grid-area: list;
+  display: flex;
+  gap: 1.75rem;
+}
+
+.card-list-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card-list-badge {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background: var(--primary-color);
+}
+
+/* Card Progress */
+
+.card-progress {
+  grid-area: engagement;
+  text-align: center;
+}
+
+.card-progress-bar {
+  position: relative;
+  width: 8rem;
+  height: 8rem;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: conic-gradient(
+    var(--primary-color) 0% 33%,
+    var(--accent-color) 33% 100%
+  );
+}
+
+.card-progress-bar::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
+  height: 85%;
+  border-radius: inherit;
+  background: var(--card-color);
+}
+
+/* Growth Card */
+
+.card-growth {
+  grid-area: growth;
+  text-align: center;
+}
+
+.card-growth-headline {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Regions Card */
+.card-regions {
+  grid-area: regions;
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
+
+/* Author and Activity Cards */
+
+.card-author {
+  grid-area: authors;
+}
+
+.card-activity {
+  grid-area: activity;
+}

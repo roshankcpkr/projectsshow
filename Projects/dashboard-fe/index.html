@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML CSS Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/favicon-16x16.png"
+    />
+    <!-- Styles and fonts -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/layout.css" />
+    <link rel="stylesheet" href="./assets/css/shared.css" />
+    <link rel="stylesheet" href="./assets/css/cards.css" />
+  </head>
+  <body>
+    <!-- Pre loader -->
+    <div class="preloader">
+      <div class="spinner"></div>
+    </div>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <span class="sidebar-top uil uil-adjust"></span>
+      <div class="sidebar-middle">
+        <span class="sidebar-top uil uil-plus"></span>
+        <span class="sidebar-top uil uil-tag"></span>
+        <span class="sidebar-top uil uil-bookmark"></span>
+      </div>
+      <span class="sidebar-bottom uil uil-setting"></span>
+    </aside>
+    <!-- Main container -->
+    <div class="container">
+      <!-- First card -->
+      <div class="card card-headline card-headline1">
+        <div>
+          <h4 class="card-h4">Followers</h4>
+          <h2 class="card-h2">104k</h2>
+        </div>
+        <span class="card-headline-icon uil uil-user"></span>
+      </div>
+      <!-- Second card -->
+      <div class="card card-headline card-headline2">
+        <div>
+          <h4 class="card-h4">Likes</h4>
+          <h2 class="card-h2">988k</h2>
+        </div>
+        <span class="card-headline-icon uil uil-heart"></span>
+      </div>
+      <!-- Third card -->
+      <div class="card card-list">
+        <div class="card-list-item">
+          <span class="card-list-badge"></span>
+          <div>
+            <h4 class="card-h4">Reach</h4>
+            <h2 class="card-h2">677k</h2>
+          </div>
+        </div>
+        <div class="card-list-item">
+          <span class="card-list-badge"></span>
+          <div>
+            <h4 class="card-h4">Saves</h4>
+            <h2 class="card-h2">1.2m</h2>
+          </div>
+        </div>
+        <div class="card-list-item">
+          <span class="card-list-badge"></span>
+          <div>
+            <h4 class="card-h4">Friends</h4>
+            <h2 class="card-h2">556</h2>
+          </div>
+        </div>
+      </div>
+      <!-- Progress card -->
+      <div class="card has-extra-padding card-progress">
+        <div>
+          <h3 class="card-h3">Engagement</h3>
+          <h2 class="card-h2 has-bottom-margin">33%</h2>
+        </div>
+        <div class="card-progress-bar"></div>
+      </div>
+      <!-- Growth card -->
+      <div class="card has-extra-padding card-growth">
+        <h3 class="card-h3">Growth</h3>
+        <div class="card-growth-headline">
+          <div>
+            <h4 class="card-h4">Follows</h4>
+            <h2 class="card-h2 has-bottom-margin">1.4k</h2>
+          </div>
+          <div>
+            <h4 class="card-h4">Unfollows</h4>
+            <h2 class="card-h2 has-bottom-margin">734</h2>
+          </div>
+          <div>
+            <h4 class="card-h4">Total</h4>
+            <h2 class="card-h2 has-bottom-margin">691</h2>
+          </div>
+        </div>
+        <!-- Bar chart -->
+        <div class="card-barchart">
+          <div>
+            <div class="card-bar-default" style="height: 30px"></div>
+            <div class="card-bar-primary" style="height: 20px"></div>
+          </div>
+          <div>
+            <div class="card-bar-default" style="height: 50px"></div>
+            <div class="card-bar-primary" style="height: 60px"></div>
+          </div>
+          <div>
+            <div class="card-bar-default" style="height: 32px"></div>
+            <div class="card-bar-primary" style="height: 15px"></div>
+          </div>
+          <div>
+            <div class="card-bar-default" style="height: 50px"></div>
+            <div class="card-bar-primary" style="height: 30px"></div>
+          </div>
+          <div>
+            <div class="card-bar-default" style="height: 60px"></div>
+            <div class="card-bar-primary" style="height: 60px"></div>
+          </div>
+          <div>
+            <div class="card-bar-default" style="height: 32px"></div>
+            <div class="card-bar-primary" style="height: 15px"></div>
+          </div>
+          <div>
+            <div class="card-bar-default" style="height: 50px"></div>
+            <div class="card-bar-primary" style="height: 40px"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Regions card -->
+      <div class="card has-extra-padding card-regions">
+        <h3 class="card-h3">Regions</h3>
+        <h2 class="card-h2 has-bottom-margin">85%</h2>
+        <!-- Single bar chart -->
+        <div class="card-barchart is-gauge-chart">
+          <div>
+            <div class="card-bar-default" style="height: 20px"></div>
+            <div class="card-bar-primary" style="height: 70px"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Author card -->
+      <div class="card card-author">
+        <header class="card-header">
+          <h3 class="card-h3 no-bottom-margin">Authors</h3>
+          <div class="dropdown-wrapper">
+            <input type="checkbox" class="dropdown-input" id="dropdown-input" />
+            <label class="dropdown-label" for="dropdown-input">
+              <span class="card-header-icon uil uil-ellipsis-v"></span>
+            </label>
+            <div class="dropdown-menu">
+              <button class="dropdown-menu-button">Some Action</button>
+              <button class="dropdown-menu-button">Another Action</button>
+              <button class="dropdown-menu-button">Click Me</button>
+              <button class="dropdown-menu-button has-divider">
+                Delete Item
+              </button>
+            </div>
+          </div>
+        </header>
+        <ul class="avatar-list">
+          <li>
+            <img class="avatar" src="./assets/images/joe.png" />
+            <span class="avatar-text-block">
+              <span class="avatar-title"> Joe Harrison </span>
+              <span class="avatar-notes"> HTML, CSS, React, Node </span>
+            </span>
+          </li>
+          <li>
+            <img class="avatar" src="./assets/images/dan.png" />
+            <span class="avatar-text-block">
+              <span class="avatar-title"> Dan Romero </span>
+              <span class="avatar-notes"> Figma, Figjam, Notion, CSS </span>
+            </span>
+          </li>
+          <li>
+            <img class="avatar" src="./assets/images/eugene.png" />
+            <span class="avatar-text-block">
+              <span class="avatar-title"> Andrew Eugene </span>
+              <span class="avatar-notes"> Figma, XD, Photoshop </span>
+            </span>
+          </li>
+          <li>
+            <img class="avatar" src="./assets/images/mike.png" />
+            <span class="avatar-text-block">
+              <span class="avatar-title"> Mike van Dijsel </span>
+              <span class="avatar-notes"> Figma, Sketch, Illustrator </span>
+            </span>
+          </li>
+        </ul>
+      </div>
+      <!-- Timeline card -->
+      <div class="card card-activity">
+        <header class="card-header">
+          <h3 class="card-h3 no-bottom-margin">Activity</h3>
+          <span class="card-header-icon uil uil-ellipsis-v"></span>
+        </header>
+        <div class="timeline">
+          <div class="timeline-row primary">
+            <span class="timeline-when"> 9:00am </span>
+            <span class="timeline-badge"></span>
+            <span class="timeline-text">
+              Mike updated his latest Figma designs entitled: "Turquoise
+              Dashboard Concept V3.9".
+            </span>
+          </div>
+          <div class="timeline-row">
+            <span class="timeline-when"> 10:18am </span>
+            <span class="timeline-badge"></span>
+            <span class="timeline-text">
+              Joe pushed some awesome CSS code to his master repository!
+            </span>
+          </div>
+          <div class="timeline-row">
+            <span class="timeline-when"> 11:51am </span>
+            <span class="timeline-badge"></span>
+            <span class="timeline-text">
+              Dan started to create Figma concepts for two clients with scope
+              for many projects for both.
+            </span>
+          </div>
+          <div class="timeline-row">
+            <span class="timeline-when"> 14:29am </span>
+            <span class="timeline-badge"></span>
+            <span class="timeline-text">
+              Joe marked two User Story tickets as done and completed.
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

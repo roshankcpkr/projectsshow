@@ -1,0 +1,16 @@
+.logos__container {
+  padding-top: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3re, 2rem;
+  justify-items: center;
+}
+
+.logos__img img {
+  height: 60px;
+  opacity: 0.2;
+  transition: 0.3s;
+}
+
+.logos__img img:hover {
+  opacity: 0.6;
+}
