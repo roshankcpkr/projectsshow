@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            background-image: linear-gradient(to right, #ff6e7f, #bfe9ff);
+        }
+        .container{
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            min-height: 100vh;
+            grid-template-columns: repeat(4, 100px);
+            grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+        }
+        .container > button{
+            cursor: pointer;
+            font-size: 2rem;
+            border: 1px solid white;
+            outline: none;
+            background-color: #ffc8cf;
+        }
+        .container > button:hover{
+            background-color: #ffaeb9;
+        }
+        .two-span{
+            grid-column: span 2;
+        }
+        .output{
+            grid-column: 1/-1;
+            background-color: rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: end;
+            justify-content: space-around;
+            flex-direction: column;
+            /* padding: 10px; */
+            word-wrap: break-word;
+            word-break: break-all;
+            height: 120px;
+        }
+
+        /* .output .prev-content{
+            color: rgba(255, 255, 255, 0.75);
+            font-size: 1.5rem;
+        } */
+        .current-content{
+            color: rgba(255, 255, 255);
+            font-size: 2.2rem;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            background-color: rgba(0, 0, 0, 0.65);
+            text-align: center;
+        }
+
+        @media screen and (max-width: 500px) and (min-width: 301px){
+            .container{
+            grid-template-columns: repeat(4, 20%);
+            grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+            }
+        }
+
+        @media screen and (max-width: 300px){
+            .container{
+            grid-template-columns: repeat(4, 20%);
+            grid-template-rows: minmax(120px, auto) repeat(5, 90px);
+            }
+
+            .container > button{
+            font-size: 1.5rem;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="output">
+            <input type="text" class="current-content" id="input">
+        </div>
+        <button class="two-span btn operand">AC</button>
+        <button class="btn operand">DEL</button>
+        <button class="btn">/</button>
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn operand">*</button>
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn operand">+</button>
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="btn operand">-</button>
+        <button class="btn">.</button>
+        <button class="btn">0</button>
+        <button class="two-span btn">=</button>
+    </div>
+
+    <script>
+        let str = " ";
+        let button = document.querySelectorAll('.btn');
+        Array.from(button).forEach((button)=>{
+            button.addEventListener('click', (e)=>{
+                if(e.target.innerHTML == '=')
+                {
+                    str = eval(str);
+                    document.querySelector('input').value = str;
+                    str = " ";
+                }
+                else if(e.target.innerHTML == 'AC')
+                {
+                    str = " ";
+                    document.querySelector('input').value = str;
+                }
+                else if(e.target.innerHTML == 'DEL')
+                {
+                    str = str.slice(0,-1);
+                    document.querySelector('input').value = str;
+                }
+                else{
+                    str = str + e.target.innerHTML;
+                    document.querySelector('input').value = str;
+                }
+            })
+        })
+    </script>
+</body>
+</html>
