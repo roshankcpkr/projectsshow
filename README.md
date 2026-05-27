@@ -7,11 +7,11 @@
 
 ## You need to do some serious contribution.
 
-## Contributors for our project
+## Contributors for our project.
 
-## Add your information below the names
+## Add your information below the names.
 
-### You can add your projects in the Projects directory. You can also edit existing files.
+### You can add your projects in the Projects directory. You can also edit existing files!
 
 | Contributors          | Interests                                                                     |
 | --------------------- | ----------------------------------------------------------------------------- |
@@ -49,7 +49,7 @@
 | Imran Nazir | full stack development |
 | Nischal Lamichhane | Django Master, React king |
 
-### Follow the instructions of CONTRIBUTING.md properly.
+### Follow the instructions of CONTRIBUTING.md properly!
 
 ## 🎯Objectives
 
